@@ -5,7 +5,7 @@ body {
     max-width: 40rem;
     padding: 2rem;
     margin: auto;
-    background-color: rgb(245, 245, 245);
+    background: #fafafa;
     color: #121212;
 }
 
@@ -29,8 +29,8 @@ img {
 }
 
 a {
-    /* color: #0074D9; */
-    color: #0057A3;
+    color: #0072D6;
+    font-weight: bold;
 }
 
 h1, h2, strong {
