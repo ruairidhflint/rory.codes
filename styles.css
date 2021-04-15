@@ -20,7 +20,7 @@ h1 {
 }
 
 hr {
-    border: 0px;
+    border: 0px solid black;
     border-top: 1px solid #eee;
 }
 
@@ -30,7 +30,7 @@ img {
 
 a {
     color: #0072D6;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 h1, h2, strong {
@@ -52,6 +52,11 @@ p {
     margin-top: 0.5em;
     margin-bottom: 1em;
 }
+
+/* ul {
+    padding: 0;
+    list-style-position: inside;
+} */
 
 li {
     margin-top: 0.5em;
