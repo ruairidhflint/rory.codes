@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<a class="muted small" href="/">← rory flint</a>
+<h1>{{ page.title | escape }}</h1>
+{% if page.date %}
+<p class="muted small">First published on {{ page.date | date: "%B %-d, %Y" }}</p>
+{% endif %} {{ content }}

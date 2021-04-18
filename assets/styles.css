@@ -1,8 +1,8 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.5em;
     font-size: 1em;
-    max-width: 40rem;
+    max-width: 620px;
     padding: 2rem;
     margin: auto;
     background: #fafafa;
@@ -26,6 +26,8 @@ hr {
 
 img {
     max-width: 100%;
+    margin: 1rem 0;
+    /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12); */
 }
 
 a {
@@ -53,14 +55,14 @@ p {
     margin-bottom: 1em;
 }
 
-/* ul {
-    padding: 0;
-    list-style-position: inside;
-} */
-
 li {
     margin-top: 0.5em;
     margin-bottom: 0.66em;
+}
+
+.no-indent ul {
+    padding: 0;
+    list-style-type: none;
 }
 
 .muted {
@@ -70,4 +72,12 @@ li {
 
 .small {
     font-size: .8em;
+}
+
+.flex {
+    display: 'flex'
+}
+
+.port-link {
+    margin: 0 0.2em;
 }

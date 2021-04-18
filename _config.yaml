@@ -1,0 +1,10 @@
+title: Rory Flint
+email: email@example.com
+description: Lorem Ipsum's website
+url: 'https://example.org'
+
+collections:
+  portfolio:
+    output: true
+  lifelogs:
+    output: true

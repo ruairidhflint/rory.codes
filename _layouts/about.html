@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<a class="muted small" href="/">← rory flint</a>
+<h1>{{ page.title | escape }}</h1>
+{{ content }}
+
+<ul>
+  {% for lifelog in site.lifelogs reversed%}
+  <li>
+    <a class="post-link" href="{{ lifelog.url }}">{{ lifelog.title | escape }}</a> -
+    <span class="small muted">{{lifelog.date | date: "%-d/%m/%Y"}}</span>
+  </li>
+  {% endfor %}
+</ul>
