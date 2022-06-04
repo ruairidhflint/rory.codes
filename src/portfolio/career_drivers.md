@@ -10,7 +10,7 @@ position: 5
 An interactive assessment app to develop your primary career drivers - built with
 React.
 
-![Career Drivers app screenshot](./assets/images/careers.webp 'Career Drivers')
+![Career Drivers app screenshot](/assets/images/careers.webp 'Career Drivers')
 
 After taking the Career Drivers assessment on a paper print out a while back, I decided
 the basic implementation had too much participant work. The assessee or assessor had to

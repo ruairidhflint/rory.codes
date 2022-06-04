@@ -1,0 +1,11 @@
+{% extends "base.njk" %}
+{% block main %}
+<a class="muted small" href="/">← rory flint</a>
+<h1>{{ title }}</h1>
+{% if page.date %}
+<p class="muted small">First published on {{ page.date | postDate }}</p>
+{% endif %} 
+{{ content | safe }}
+{% include "./_footer.njk" %}
+{% endblock %}
+

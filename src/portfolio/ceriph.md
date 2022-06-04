@@ -9,7 +9,7 @@ position: 3
 
 Ceriph is an application that allows encryption and decryption of messages using a simple substitution cipher.
 Built with React and styled-components.
-![Ceriph app screenshot](./assets/images/ceriph.webp 'Ceriph')
+![Ceriph app screenshot](/assets/images/ceriph.webp 'Ceriph')
 
 After a visit to the fantastic [Bletchley Park](https://bletchleypark.org.uk/) I was inspired to read up and
 learn about ciphers and code breaking. As I was learning I built a simple app to encrypt and decrypt messages using a substitution

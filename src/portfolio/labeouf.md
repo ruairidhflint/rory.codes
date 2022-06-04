@@ -9,7 +9,7 @@ position: 2
 
 LaBeouf Blocker is a Chrome extension that allows you to block unproductive or undesirable websites
 and receive motivation from Shia LeBeouf's famous 'Just Do It' video in the process.
-![LaBeouf Blocker screenshot](./assets/images/labeouf.webp 'LaBeouf Blocker')
+![LaBeouf Blocker screenshot](/assets/images/labeouf.webp 'LaBeouf Blocker')
 
 LaBeouf Blocker was created as a project to learn about coding a Chrome extension whilst also building
 a simple product that would help stop the constant distractions that interrupted the development process.
