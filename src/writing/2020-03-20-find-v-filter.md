@@ -12,7 +12,7 @@ The beauty of programming is that we are problem solving. We take our tool kit, 
 
 Up until recently I have been using filter( ), a lot. Perhaps you have too. My most common use case would be something like the following:
 
-```javascript
+```js
 // Some data stored in state most likely from an API.
 const myData = [{id: 1, content="abc"}, {id: 2, content="def"}, {id: 3, content="ghi"}];
 
@@ -34,7 +34,7 @@ In short, we have an array which is filled with data, probably being pulled from
 
 Well, problem isn't fair. Filter is really, really good at filtering. It's in the name. If we have data stored in an array and pass it a condition, it will check every single item to ensure it doesn't miss anything, and return all those that meet our criteria. This explains why the result returned is an array:
 
-```javascript
+```js
 const numbers = [12, 43, 52, 91, 42, 101, 98, 11];
 
 // A simple filter to only return even numbers
@@ -56,7 +56,7 @@ Here we have one of those methods you may have heard of, you may have even used 
 
 Straight from the [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find), "The find( ) method returns the value of the first element in the provided array that satisfies the provided testing function."
 
-```javascript
+```js
 const myData = [{id: 1, content="abc"}, {id: 2, content="def"}, {id: 3, content="ghi"}];
 
 // The loop will immediate exit once the condition is satisfied.
