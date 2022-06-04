@@ -59,4 +59,4 @@ Various things I think are well worth your time regarding career (and perhaps, l
 
 ---
 
-I love talking career, learning and technology. If you have any questions or want to chat, feel free to [contact me](./about)
+I love talking career, learning and technology. If you have any questions or want to chat, feel free to [contact me](/about)

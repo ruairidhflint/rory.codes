@@ -10,7 +10,7 @@ system of goal setting. ([details](../202 1-review-2022-goals))
 
 ---
 
-Progress from [May](./may) - A rough one. Unfocused due to a big career move, other life stuff etc. No excuse. Back on the path.
+Progress from [May](/may) - A rough one. Unfocused due to a big career move, other life stuff etc. No excuse. Back on the path.
 
 - ❌ <strong class="green-background">Start Naval's 60 Minute 60 Day Meditation Practice</strong> - Zero days.
 - ❌ <strong class="green-background">15 hours on the Peloton</strong> - Zero hours.

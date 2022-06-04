@@ -5,7 +5,7 @@ permalink: /2022/january/
 ---
 
 Rather than a traditional process of yearly resolutions I am experimenting with a more targeted monthly
-system of goal setting. ([details](../2021-review-2022-goals))
+system of goal setting. ([details](/2021-review-2022-goals))
 
 These will be marked as completed or fail as the month progresses and a summary written at the beginning of
 the next month.

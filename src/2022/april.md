@@ -10,7 +10,7 @@ system of goal setting. ([details](../202 1-review-2022-goals))
 
 ---
 
-Progress from [March](./march) - Great month. Best of the year so far.
+Progress from [March](/2022/march) - Great month. Best of the year so far.
 
 - ✅ <strong class="green-background">Eat at Michelin Star Restaurant</strong> - We went to [Leroy](https://www.leroyshoreditch.com/) in Shoreditch. Fantastic food. Well worth the trip.
 - ✅ <strong class="green-background">Finish Three Half Finished Books</strong> - All done. The James Smith book was solid, Mental Models Vol. 1 was brilliant(I've bought the second two volumes) and The Book of EST was bizarre but excellent. Continued by finishing two others before the end of the month.
