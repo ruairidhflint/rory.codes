@@ -13,6 +13,10 @@ module.exports = function (eleventyConfig) {
     return `${year}`;
   });
 
+  eleventyConfig.addCollection('portfolio', function (collection) {
+    return collection.getFilteredByGlob('src/portfolio/*.md').sort((a, b) => a.data.position - b.data.position);
+  });
+
   return {
     dir: {
       input: 'src',

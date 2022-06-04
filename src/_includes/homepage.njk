@@ -7,7 +7,7 @@
 <hr />
 <h2>Projects</h2>
 <ul>
-  {% for portfolio in collections.portfolio %}
+  {% for portfolio in collections.portfolio  %}
   <li>
     <a class="post-link" href="{{ portfolio.url }}">{{ portfolio.data.title }}</a> -
     {{portfolio.data.summary}}
