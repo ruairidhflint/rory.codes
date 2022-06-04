@@ -2,15 +2,20 @@
   <meta content="text/html; charset=UTF-8" name="Content-Type" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width" />
-  <meta name="description" content="Portfolio and writing of Software Developer Rory Flint" />
 
   <meta property="og:site_name" content="{{ title }}" />
   <meta property="og:locale" content="en_US" />
 
   <meta property="og:title" content="{{ title }}" />
   <meta property="og:type" content="article" />
-
+{% if description %}
+  <meta property="og:description" content="{{ description }}" />
+    <meta name="description" content="{{ description }}" />
+  {% else %}
+    <meta name="description" content="Portfolio and writing of Software Developer Rory Flint" />
   <meta property="og:description" content="Portfolio and writing of Software Developer Rory Flint" />
+{% endif %}
+
 
   <meta property="og:image" content="/assets/192.png" />
 
