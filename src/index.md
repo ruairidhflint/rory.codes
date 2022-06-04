@@ -1,6 +1,7 @@
 ---
-title: 'Hello World!'
-layout: 'base.njk'
+layout: 'homepage.njk'
+main: rory flint*
+title: Home
 ---
 
-This is a homepage!
+Software engineer based in London, England. More [about me](/about/).
