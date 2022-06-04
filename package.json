@@ -13,5 +13,9 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0"
+  },
+  "dependencies": {
+    "markdown-it": "^13.0.1",
+    "markdown-it-checkbox": "^1.1.0"
   }
 }

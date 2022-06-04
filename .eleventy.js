@@ -1,5 +1,7 @@
 const { DateTime } = require('luxon');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const markdownIt = require('markdown-it');
+const markdownItCheckbox = require('markdown-it-checkbox');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
@@ -19,6 +21,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('portfolio', function (collection) {
     return collection.getFilteredByGlob('src/portfolio/*.md').sort((a, b) => a.data.position - b.data.position);
   });
+
+  let options = {
+    html: true,
+  };
+
+  let md = markdownIt(options).use(markdownItCheckbox);
+  md.render('[ ] unchecked');
+  md.render('[x] checked');
+
+  eleventyConfig.setLibrary('md', md);
 
   return {
     dir: {

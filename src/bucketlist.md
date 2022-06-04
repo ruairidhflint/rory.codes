@@ -14,7 +14,7 @@ goals here.
 - [x] - Read 100 books in a year <span class="small muted"> - 2016 </span>
 - [x] - Get a job as a developer <span class="small muted"> - 09/09/2020 </span>
 - [x] - Buy an apartment <span class="small muted"> - 09/09/2020 </span>
-- [ ] - Build and ship a journaling app
+- [x] - Build and ship a journaling app <span class="small muted"> - May 2022 ([JURNL](https://jurnl.rory.codes))</span>
 - [ ] - Buy my [dream watch](https://www.rolex.com/watches/cellini.html) without financial stress
 - [ ] - Contribute meaningfully to an open source project
 - [ ] - Ship Decoder NPM package
@@ -25,7 +25,7 @@ goals here.
 - [x] - 7 day fast <span class="small muted"> - April 2018 </span>
 - [ ] - Fix posture
 - [ ] - Visit Japan
-- [ ] - Visit Singapore
+- [x] - Visit Singapore <span class="small muted"> - April 2022 </span>
 - [ ] - Vist India
 - [x] - Vist Sri Lanka <span class="small muted"> - 3 trips </span>
 - [ ] - Wild camp for a week
