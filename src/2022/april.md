@@ -6,7 +6,7 @@ description: A reflection on February and a plan for April
 ---
 
 Rather than a traditional process of yearly resolutions I am experimenting with a more targeted monthly
-system of goal setting. ([details](../202 1-review-2022-goals))
+system of goal setting. ([details](/2021-review-2022-goals))
 
 ---
 

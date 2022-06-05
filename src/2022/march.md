@@ -6,11 +6,11 @@ description: A reflection on February and a plan for March
 ---
 
 Rather than a traditional process of yearly resolutions I am experimenting with a more targeted monthly
-system of goal setting. ([details](../202 1-review-2022-goals))
+system of goal setting. ([details](/2021-review-2022-goals))
 
 ---
 
-Progress from [February](/february) - I had a great month. I turned 31 - some wins, some losses. Some strikes, some gutters. Lots learnt, lots to learn.
+Progress from [February](/2022/february) - I had a great month. I turned 31 - some wins, some losses. Some strikes, some gutters. Lots learnt, lots to learn.
 
 - ❌ <strong class="green-background">Run 5km</strong> - Two months in a row. Have been on the Peloton a lot but haven't laced up my running shoes once.
 - ✅ <strong class="green-background">Finish Epic React</strong> - Tick. Lots learnt. Naturally I immediately get a new job that will primarily be writing C# rather than JavaScript/React. More on that another time.

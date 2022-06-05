@@ -6,11 +6,11 @@ description: A reflection on April and a plan for May
 ---
 
 Rather than a traditional process of yearly resolutions I am experimenting with a more targeted monthly
-system of goal setting. ([details](../202 1-review-2022-goals))
+system of goal setting. ([details](/2021-review-2022-goals))
 
 ---
 
-Progress from [April](/april) - Lots done, lots to do.
+Progress from [April](/2022/april) - Lots done, lots to do.
 
 - ⏳ <strong class="green-background">Fix Posture</strong> - Good progress - [Overcoming Poor Posture](https://www.amazon.co.uk/Overcoming-Poor-Posture-Systematic-Performance/dp/194755400X) is an excellent book that goes far more into the what, whys and hows of posture as well as strategies for changing it. Avoids using words like 'improving' posture as no posture is inherently bad but is often wrong for the situation.
 - ❌ <strong class="green-background">Start Naval's 60 Minute 60 Day Meditation Practice</strong> - 6 hours straight on a long flight but then never really got started. Carrying over in to May.

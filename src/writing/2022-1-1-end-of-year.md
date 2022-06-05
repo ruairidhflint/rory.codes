@@ -47,5 +47,6 @@ So there we have it. These are the themes I am keeping it mind as the year slowl
 - [March](/2022/march)
 - [April](/2022/april)
 - [May](/2022/may)
+- [June](/2022/june)
 
 I wish you all a fantastic 2022 - let’s make it the best year yet.
