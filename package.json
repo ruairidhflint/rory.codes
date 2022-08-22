@@ -5,16 +5,23 @@
   "main": "index.js",
   "scripts": {
     "dev": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
+    "eslint": "^8.22.0"
   },
   "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
     "markdown-it": "^13.0.1",
-    "markdown-it-checkbox": "^1.1.0"
+    "markdown-it-checkbox": "^1.1.0",
+    "prettier": "^2.7.1"
   }
 }

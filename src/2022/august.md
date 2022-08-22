@@ -1,5 +1,5 @@
 ---
-layout: "lifelist.njk"
+layout: 'lifelist.njk'
 title: August 2022
 permalink: /2022/august/
 description: A reflection on June and July and a plan for August

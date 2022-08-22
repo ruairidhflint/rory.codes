@@ -1,10 +1,10 @@
 ---
-layout: "writing.njk"
+layout: 'writing.njk'
 title: 2021 Review + 2022 Goals
 permalink: /2021-review-2022-goals/
 ---
 
-![The Aviary of Death by Giovani Paolo Cimerlini](/assets/images/aviaryofdeath.webp "The Aviary of Death by Giovani Paolo Cimerlini")
+![The Aviary of Death by Giovani Paolo Cimerlini](/assets/images/aviaryofdeath.webp 'The Aviary of Death by Giovani Paolo Cimerlini')
 
 I am skeptical of New Year's Resolutions. I am unsure if that is because I have always struggled to meaningfully stick to any goals or because there is an inherent issue with the concept.
 
@@ -17,7 +17,7 @@ Using this as the starting point, I am going to briefly consider the previous ye
 There will be some top level macro goals/themes. These are less specific concepts that I will resolve to improve or aim towards. I will subsequently start with several more specific goals that loosely are aimed to be completed within a month. Some will take days, some months, some will fail. At the end of each month I will review the progress and adjust accordingly. Perhaps the themes will change as [new shit comes to light](https://www.youtube.com/watch?v=gbIv7W7rhx4).
 
 My hope is that this slightly more nuanced approach of review and amendment to the resolution process, along with the analysis of the previous year, will bring more successful and fulfilling results than previous attempts.
-![The Fall of Phaeton by Peter Paul Rubens](/assets/images/fallofphaeton.webp "The Fall of Phaeton by Peter Paul Rubens")
+![The Fall of Phaeton by Peter Paul Rubens](/assets/images/fallofphaeton.webp 'The Fall of Phaeton by Peter Paul Rubens')
 
 ## 2021
 

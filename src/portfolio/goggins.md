@@ -8,7 +8,7 @@ position: -2
 ---
 
 Goggins Blocker is a Chrome extension that allows you to block unproductive or undesirable websites
-and receive motivation from David Goggins in the process. 
+and receive motivation from David Goggins in the process.
 ![Goggins Blocker screenshot](/assets/images/goggins.webp 'Goggins Blocker')
 
 Goggins Blocker was created as a project to learn about coding a Chrome extension whilst also building

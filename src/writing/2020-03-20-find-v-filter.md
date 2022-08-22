@@ -35,12 +35,12 @@ In short, we have an array which is filled with data, probably being pulled from
 Well, problem isn't fair. Filter is really, really good at filtering. It's in the name. If we have data stored in an array and pass it a condition, it will check every single item to ensure it doesn't miss anything, and return all those that meet our criteria. This explains why the result returned is an array:
 
 ```js
-const numbers = [12, 43, 52, 91, 42, 101, 98, 11];
+const numbers = [12, 43, 52, 91, 42, 101, 98, 11]
 
 // A simple filter to only return even numbers
 const evenNumbersOnly = numbers.filter((num) => {
-  return num % 2 === 0;
-});
+  return num % 2 === 0
+})
 // evenNumbersOnly = [ 12, 52, 42, 98 ]
 ```
 
