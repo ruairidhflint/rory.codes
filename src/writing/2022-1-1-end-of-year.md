@@ -50,5 +50,6 @@ So there we have it. These are the themes I am keeping it mind as the year slowl
 - [June](/2022/june)
 - ~~July~~
 - [August](/2022/august)
+- [September](/2022/september)
 
 I wish you all a fantastic 2022 - let’s make it the best year yet.
