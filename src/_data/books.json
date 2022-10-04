@@ -1,0 +1,64 @@
+{
+  "twentytwo": [
+    {
+      "title": "Roadside Picnic",
+      "authors": "Arkady and Boris Strugatsky",
+      "links": []
+    },
+    {
+      "title": "The Dip",
+      "authors": "Seth Godin",
+      "links": []
+    },
+    {
+      "title": "The Great Mental Models Volume 1",
+      "authors": "Shane Parrish and Rhiannon Beaubien",
+      "links": []
+    },
+    {
+      "title": "Not a Life Coach",
+      "authors": "James Smith",
+      "links": []
+    },
+    {
+      "title": "Too Long a Solitude",
+      "authors": "Bohumil Hrabal",
+      "links": ["/too-loud-a-solitude", "/too-loud-a-solitude-names"]
+    },
+    {
+      "title": "No One Writes to the Colonel",
+      "authors": "Gabriel Garcia Marquez",
+      "links": []
+    },
+    {
+      "title": "Thunderball",
+      "authors": "Ian Fleming",
+      "links": []
+    },
+    {
+      "title": "With a Mind to Kill",
+      "authors": "Anthony Horowitz",
+      "links": []
+    },
+    {
+      "title": "The 2-Hour Cocktail Party",
+      "authors": "Nick Gray",
+      "links": []
+    },
+    {
+      "title": "Rise and Kill First",
+      "authors": "Ronen Bergman",
+      "links": []
+    },
+    {
+      "title": "The Almanack of Naval Ravikant",
+      "authors": "Eric Jorgenson",
+      "links": []
+    },
+    {
+      "title": "Theroux the Keyhole",
+      "authors": "Louis Theroux",
+      "links": []
+    }
+  ]
+}

@@ -81,6 +81,11 @@ li {
   margin-bottom: 0.66em;
 }
 
+.large {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
 @media (max-width: 600px) {
   ul {
     padding: 0;
