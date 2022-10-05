@@ -21,6 +21,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('portfolio', function (collection) {
     return collection
       .getFilteredByGlob('src/portfolio/*.md')
+      .filter((x) => !x.data.hidden)
       .sort((a, b) => a.data.position - b.data.position)
   })
 

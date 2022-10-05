@@ -5,6 +5,7 @@ permalink: /iss/
 summary: Live tracking of the International Space Station displayed on Google Maps
 deployed: https://ruairidhflint.github.io/iss/
 position: 4
+hidden: true
 ---
 
 ISS Tracker uses HTML, CSS and Javascript along with the Google Maps API and an ISS Location
