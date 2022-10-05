@@ -4,4 +4,4 @@ main: rory flint*
 title: Home
 ---
 
-Software engineer based in London, England. <br >I like to [read](/books/) and sometimes take [photos](https://www.instagram.com/mrroryflint/). More [about me](/about/).
+Software engineer based in London, England. More [about me](/about/).
