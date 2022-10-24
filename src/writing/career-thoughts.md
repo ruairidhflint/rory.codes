@@ -3,6 +3,7 @@ layout: 'writing.njk'
 title: Some Thoughts on Career Choices and Changes
 permalink: /thoughts-on-career/
 description: Some thoughts about learning and career choices in the 21st Century.
+date: '2022-03-15'
 ---
 
 Taking career advice from anybody is a risky and inadvisable endeavour. Especially from professional career advisers. Nobody can tell you what to do and even if they did, you probably wouldn’t listen. That being said, in the past three years I have fast tracked a career change, career progression and long term opportunities at a ferocious pace. Along the way I’ve picked up knowledge and ideas that I would have loved to have known beforehand. None are particularly unique or original, but then what is?

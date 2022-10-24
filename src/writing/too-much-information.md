@@ -3,6 +3,7 @@ layout: 'writing.njk'
 title: Too Much Information
 permalink: /too-much-information/
 description: An examination into excess input and the information diet.
+date: '2022-01-30'
 ---
 
 My alarm rings at 6am. I snooze it and spend the next ten minutes scrolling through Twitter. I reach a tweet that I remember from late last night so switch to Instagram. I watch a few stories and scroll the algorithmically determined feed. I check three online news sources of varying political leanings and take in what has gone on in the world whilst I've slept. I check my personal and work emails. The alarm rings. I go back to Twitter - nothing new. I check the 'trending' section and scan through, uninterested. Instagram again - check to see if the 'explore' page has anything of interest.

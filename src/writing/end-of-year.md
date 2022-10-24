@@ -2,6 +2,7 @@
 layout: 'writing.njk'
 title: 2021 Review + 2022 Goals
 permalink: /2021-review-2022-goals/
+date: '2022-01-01'
 ---
 
 ![The Aviary of Death by Giovani Paolo Cimerlini](/assets/images/aviaryofdeath.webp 'The Aviary of Death by Giovani Paolo Cimerlini')

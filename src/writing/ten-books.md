@@ -2,6 +2,7 @@
 layout: 'writing.njk'
 title: 10 Books I Probably Should Have Read
 permalink: /ten-books/
+date: '2021-04-21'
 ---
 
 Whether you're starting a business, launching a product, trying to get rich, getting fit, wanting to self-improve, developing a side hustle or just merely existing, there are some books that are recommended at every turn. Books that 'everyone must read', essential' and 'life-changing'.

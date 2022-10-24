@@ -3,6 +3,7 @@ layout: 'writing.njk'
 title: Start-Up vs Big Tech as a Software Engineer
 permalink: /startup-v-bigtech/
 description: Working at start-up vs a big tech company as a software engineer.
+date: '2022-10-23'
 ---
 
 A disclaimer: the following thoughts are certainly not intended as advice nor are they necessarily reflective of other companies of similar size. I have verified with other developers that many of these thoughts are commonly held but regardless everything should be taken as purely subjective.

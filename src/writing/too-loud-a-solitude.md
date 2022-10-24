@@ -2,6 +2,7 @@
 layout: 'writing.njk'
 title: All Books Referenced in Too Loud a Solitude
 permalink: /too-loud-a-solitude/
+date: '2021-12-20'
 ---
 
 ![The Night Watch by Rembrandt](/assets/images/nightwatch.webp 'The Night Watch by Rembrandt')

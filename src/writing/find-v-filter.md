@@ -2,6 +2,7 @@
 layout: 'writing.njk'
 title: Find vs Filter in Javascript
 permalink: /find-vs-filter/
+postDate: '2020-03-20'
 ---
 
 How many built in Array methods can you name? Off the top of my head I came up with: _map, filter, reduce, find, pop, push, shift, unshift, forEach, concat and includes._ At time of writing, there are at least [32](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Instance_methods), I named less than a third!
