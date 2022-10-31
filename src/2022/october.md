@@ -2,7 +2,7 @@
 layout: 'lifelist.njk'
 title: October 2022
 permalink: /2022/october/
-description: A reflection on (the end of) August and a plan for October
+description: A reflection on (the end of) September and a plan for October
 ---
 
 Rather than a traditional process of yearly resolutions I am experimenting with a more targeted monthly
