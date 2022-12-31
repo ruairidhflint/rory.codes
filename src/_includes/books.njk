@@ -6,6 +6,16 @@
 </header>
 {{ content | safe}}
 <hr />
+<span class="large green-background">2023</span> 
+<p>
+  {% for book in books.twentythree  %}
+    <span style="line-height: 2rem"><b>{{book.title}}</b> - {{book.authors}} </span>
+    {% for link in book.links %}
+    <span><a href={{link}} target="_blank" rel="noopener noreferrer">{{loop.index}}</a></span>
+    {% endfor %}
+  </br>
+  {% endfor %}
+</p>
 <span class="large green-background">2022</span> 
 <p>
   {% for book in books.twentytwo  %}
