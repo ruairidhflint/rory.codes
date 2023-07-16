@@ -12,8 +12,7 @@ I primarily code in Javascript; React on the front-end and NodeJS for the back-e
 working with Python on several data science and machine learning projects.
 
 Beyond work I read voraciously, keep a close eye on all things
-<a href="https://bitcoin.org/bitcoin.pdf" target="_blank">bitcoin</a> and try to live a
-[full life](/bucketlist/).
+<a href="https://bitcoin.org/bitcoin.pdf" target="_blank">bitcoin</a> and try to live a full life.
 
 Here's what I'm doing [now](/now/).
 
