@@ -8,11 +8,7 @@ Hello! My name is Rory, I'm a software engineer from London, England. I studied 
 <a href="https://lambdaschool.com/" target="_blank">Lambda School</a> after several years working as a commercial
 photographer.
 
-I primarily code in Javascript; React on the front-end and NodeJS for the back-end, but I have recently been
-working with Python on several data science and machine learning projects.
-
-Beyond work I read voraciously, keep a close eye on all things
-<a href="https://bitcoin.org/bitcoin.pdf" target="_blank">bitcoin</a> and try to live a full life.
+Beyond work I read voraciously, build plenty of side projects and try to live a full life away from all things digital.
 
 Here's what I'm doing [now](/now/).
 
