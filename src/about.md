@@ -15,7 +15,7 @@ Here's what I'm doing [now](/now/).
 ## Contact
 
 - [CV](/assets/RoryFlintCV1.pdf)
-- <a href="mailto:rory.patrick.flint@gmail.com">rory.patrick.flint@gmail.com</a>
+- Email me at roryflintphoto at gmail dot com
 - <a href="https://twitter.com/MrRoryFlint/" target="_blank">Twitter</a>
 - <a href="https://github.com/ruairidhflint" target="_blank">Github</a>
 - <a href="https://www.linkedin.com/in/rory-patrick-flint/" target="_blank">LinkedIn</a>
