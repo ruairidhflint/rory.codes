@@ -31,7 +31,7 @@ Whilst the list is divided by year, I am under no illusion that I am sure to com
 Once upon a time I made an effort to read 100 books in a year. It was a fun challenge but in hindsight it descended into exactly what I should have expected: a race to quickly finish short books without a lot of thought or absorption. It was the polar opposite of how I really like to do anything: with consideration and care.
 
 With that in mind, I am putting no pressure on finishing any book in any timeframe. My goal is to study and learn from these books, to enjoy and savour them.
-You can view the full list here alongside some further background and sources on how the list was compiled: https://books.rory.codes
+You can view the full list here alongside some further background and sources on how the list was compiled: [https://books.rory.codes](https://books.rory.codes)
 
 In these early days, I am particularly looking forward to a few texts and a little terrified of others:
 
@@ -40,4 +40,4 @@ In these early days, I am particularly looking forward to a few texts and a litt
 - **Dante’s Inferno** has scared me off for at least a decade.
 - **Don Quixote by Miguel de Cervantes** has been recommended at least three people I greatly respect.
 
-So, on that note, the books await. I am going to be occasionally writing up notes on the books as I read them so do check in now and then. As ever feel free to be in contact via the about me page.
+So, on that note, the books await. I am going to be occasionally writing up notes on the books as I read them so do check in now and then. As ever feel free to be in contact via the [about me](/about) me page.
