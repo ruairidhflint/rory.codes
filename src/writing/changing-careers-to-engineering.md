@@ -1,7 +1,7 @@
 ---
 layout: 'writing.njk'
 title: Landing Your First Job as a Software Engineer Without a Degree
-permalink: /changing-careers-to-enginerring/
+permalink: /changing-careers-to-engineering/
 description: Some advice on getting your first job as a software engineer when coming from a non-traditional background
 date: '2023-11-27'
 ---
