@@ -18,10 +18,16 @@
 {% endif %}
 
 
-  <meta property="og:image" content="/assets/192.png" />
+<meta property="og:image" content="/assets/192.png" />
+<meta name="author" content="Rory Flint" />
 
-    <meta property="og:url" content="https://rory.codes/changing-careers-to-engineering" />
-    <link rel="canonical" href="https://rory.codes" />
+{% if url %}
+  <meta property="og:url" content="https://rory.codes{{ url }}"  />  
+  <link rel="canonical" href="https://rory.codes{{ url }}"  />
+  {% else %}
+  <meta property="og:url" content="https://rory.codes" />  
+  <link rel="canonical" href="https://rory.codes" />
+{% endif %}
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:image" content="https://rory.codes/assets/192.png" />
