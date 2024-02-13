@@ -6,7 +6,7 @@ description: Reflections on 2023. Losing my father and becoming a father.
 date: '2024-02-13'
 ---
 
-This year has been a profound journey of contrasts for me, marked by the loss of my father and the arrival of my first child, all within the span of seven months. These events have reshaped my understanding of life, work, and the delicate balance we all strive to maintain between personal fulfilment and professional ambition.
+Last year was a profound journey of contrasts for me, marked by the loss of my father and the arrival of my first child, all within the span of seven months. These events have reshaped my understanding of life, work, and the delicate balance we all strive to maintain between personal fulfilment and professional ambition.
 
 The passing of my father was a profound loss that reverberated through the core of my being, leaving an indelible mark on my soul. He was not just a parent but a guiding force in my life. His wisdom, shared through stories and advice and which he would always play down, had been a constant source of strength for me. His passing left a void, not only in my heart but in my daily routine. Suddenly, the person I turned to for advice, the one who had always been there to offer perspective on career decisions and personal challenges, was gone. This loss made me reevaluate my priorities, questioning the path I was on and whether it aligned with the values and lessons he had imparted.
 
