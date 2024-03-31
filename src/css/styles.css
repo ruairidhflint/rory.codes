@@ -9,11 +9,21 @@
   --green: #99ffdd;
 }
 
-[data-theme='dark'] {
-  --background: rgba(32, 32, 32, 1);
-  --main-text: #fcfcfc;
-  --darkgray: #fcfcfc;
+.dark {
+  --background: rgba(24, 24, 24, 1);
+  --main-text: #e4e4e4;
+  --darkgray: #e4e4e4;
   --link: #3c9cf0;
+}
+
+#toggleDarkMode {
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
+:hover#toggleDarkMode {
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
 }
 
 body {

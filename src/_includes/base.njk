@@ -4,5 +4,18 @@
 <body>
     {% block main %}
   {% endblock %}
+      <script>
+          document.getElementById("toggleDarkMode").addEventListener("click", function() {
+      if (isDarkMode()) {
+        localStorage.theme = 'light'
+        document.documentElement.classList.remove('dark')
+      } else {
+        localStorage.theme = 'dark'
+        document.documentElement.classList.add('dark')
+      }
+       updateToggleButtonText();
+      });
+      updateToggleButtonText();
+    </script>
 </body>
 </html>

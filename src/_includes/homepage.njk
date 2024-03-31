@@ -1,7 +1,7 @@
 {% extends "base.njk" %}
 {% block main %}
 <header>
-  <h1>{{ main }}</h1>
+  <h1>{{ main }}<span id="toggleDarkMode">*</span></h1>
 </header>
 {{ content | safe}}
 <hr />

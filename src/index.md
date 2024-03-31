@@ -1,6 +1,6 @@
 ---
 layout: 'homepage.njk'
-main: rory flint*
+main: rory flint
 title: Home
 ---
 

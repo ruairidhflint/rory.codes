@@ -40,4 +40,12 @@
   <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />  
   <title>{{ title }} - Rory Flint</title>  
   <link rel="stylesheet" href="{{ '/css/styles.css' }}">
+      <script>
+      const isDarkMode = () => localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      if (isDarkMode()) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
 </head>
