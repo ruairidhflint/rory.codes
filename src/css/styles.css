@@ -21,11 +21,12 @@
   transition: opacity 0.2s ease-in-out;
 }
 
-:hover#toggleDarkMode {
-  opacity: 0.5;
-  transition: opacity 0.2s ease-in-out;
+@media (hover: hover) {
+  :hover#toggleDarkMode {
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in-out;
+  }
 }
-
 body {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
     Helvetica, Arial, 'Lucida Grande', sans-serif;
