@@ -8,18 +8,15 @@ permalink: /now/
 
 ## Work
 
-Currently wortking at [Tipalti](https://tipalti.com/) as a Software Engineer.
+Currently wortking at [Tipalti](https://tipalti.com/) as a Senior Software Engineer.
 
 ## Life
 
-Have decided to stick to our little corner of London/Essex and ride out the insane financial markets. As soon as things show sign of stability we will be on the move.
+I have a son, Elijah. He is perfect.
+We moved to a beautiful house with lots of space, a huge garden and a woodworking workshop.
 
 ## Doing
 
-Currently continuing to try and stay on the [exponential](https://blog.samaltman.com/how-to-be-successful) learning curve and working on the following things in the little spare time I have:
+With work, moving and the little one - not a whole lot. Trying to read as much as I can and about to embark on a series of 'experiments'. Stay tuned.
 
-- _-_ Functional Programming (specifically [fp-ts](https://gcanti.github.io/fp-ts/))
-- _-_ [Happiness](https://www.amazon.co.uk/Youre-Smart-Why-Arent-Happy-ebook/dp/B019CH3MPQ)
-- _-_ Working on [Upstand](https://upstand-app.vercel.app/)
-
-<p class="small muted">Last Updated: 2nd October 2022</p>
+<p class="small muted">Last Updated: 23rd April 2025</p>
