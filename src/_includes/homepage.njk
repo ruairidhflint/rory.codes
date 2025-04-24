@@ -7,10 +7,10 @@
 <hr />
 <h2>Projects</h2>
 <ul>
-  {% for portfolio in collections.portfolio  %}
+  {% for item in portfolio  %}
   <li>
-    <a class="post-link" href="{{ portfolio.url }}">{{ portfolio.data.title }}</a> -
-    {{portfolio.data.summary}}
+    <a class="post-link" href="{{ item.url }}" target="_blank ">{{ item.title }}</a> -
+    {{item.description}}
   </li>
   {% endfor %}
 </ul>

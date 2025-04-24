@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Sundial",
+    "description": "iOS app to provide Sundial insights as a memento mori",
+    "url": "https://apps.apple.com/gb/app/sundial/id6744170610"
+  },
+  {
+    "title": "Day by Day",
+    "description": "A Day by Day visualisation of my life",
+    "url": "https://days.rory.codes/"
+  },
+  {
+    "title": "Calendar of Wisdom",
+    "description": "Daily insight and reflections from A Calendar of Wisdom by Leo Tolstoy",
+    "url": "https://www.calendarof.life/"
+  },
+  {
+    "title": "Goggins Blocker",
+    "description": "A Chrome extension to block unproductive websites featuring David Goggins",
+    "url": "https://chromewebstore.google.com/detail/goggins-blocker/kpnafocdjkofgnpaafppplaghogpgadk?pli=1"
+  },
+  {
+    "title": "Jurnl",
+    "description": "A stream of consciousness, ephemeral text editors",
+    "url": "https://jurnl.rory.codes/"
+  },
+  {
+    "title": "Oxygenie",
+    "description": "Mac app to check air quality at your current location",
+    "url": "https://oxygenie.netlify.app/"
+  },
+  {
+    "title": "Ceriph",
+    "description": "A simple cypher tool for encrypting and decrypting text",
+    "url": "https://ceriph.netlify.app/"
+  }
+]
