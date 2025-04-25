@@ -1,0 +1,54 @@
+---
+layout: 'writing.njk'
+title: 21 Day Experiment - No Complaining
+permalink: /experiment-1-no-complaining/
+description: The first of several 21 Day Experiments. No Complaining.
+date: '2025-04-25'
+---
+
+I like experiments: time-boxed, specific and purposeful. Over the years I've tried all kinds: setting and tracking monthly goals, fasting, reading 100 books in a year and a few more unsuitable for public announcement.
+
+I was recently reading a [post](https://www.raptitude.com/experiment-log-no-37-abstaining-from-political-content-for-two-months/) by David Cain that inspired me to pick up some self-experimentation once again. I had also, by sheer coincidence, stumbled across an article by Tim Ferriss sharing his experiences with a [21 Day No-Complaint Experiment.](https://tim.blog/2007/09/18/real-mind-control-the-21-day-no-complaint-experiment/) An idea began to take shape: a series of 21 Day Experiments, starting with the No-Complaint concept and continuing through to other areas of life that I'd like to work on or, at the bare minimum, shake things up a bit.
+
+![The Fighting Temeraire Tugged to Her Last Berth to be Broken Up by J. M. W. Turner](/assets/images/fighting-temeraire.webp 'The Fighting Temeraire Tugged to Her Last Berth to be Broken Up by J. M. W. Turner')
+
+### How it works
+
+The mechanics of the experiment are straightforward:
+
+1. You wear a purple wristband (though you can choose any type you want)
+2. Whenever you catch yourself complaining, you must switch the wristband to your other wrist
+3. The goal is to reach 21 consecutive days without complaining
+4. If you complain, you switch wrists and reset the clock back to day zero
+5. No exceptions, no excuses - you need to start over every time
+
+Bowen, a pastor, argues that complaining (verbally expressing dissatisfaction without constructive intent) creates a cycle of negativity that affects mental health, relationships, and life satisfaction.
+
+The 21-day timeframe is based on the idea that it takes about this long to form or break a habit, though modern research suggests habit formation often takes longer. Regardless, 21 days seems a significant target with obvious positive consequences.
+
+### Defining a Complaint
+
+A complaint is a verbalised negative expression about a situation or problem without offering a constructive solution. For example:
+
+- Complaint: "The train is so late; I'm going to be late for work."
+- Not a complaint: "The train is late, so next time I'll leave earlier to ensure I'm on time."
+
+There are a few additions that are also counted as 'complaints' and require a reset:
+
+- Gossiping
+- Criticising others in a non-constructive and action-oriented way
+- Sarcasm/passive-aggressiveness
+
+---
+
+I am beginning at 7:30am on 25th April 2025. Wristband at the ready. Deep breaths inhaled. I plan on keeping rough notes, where possible, each time I break the rules with the intention of being able to try and correlate certain people, places or activities with excessive complaining.
+I will keep track and post updates below as the days, weeks, months and hopefully _not_ years go by.
+
+## Updates
+
+_25th April_
+
+- _1030_ - bemoaned a boring talk I'd sat through
+- _1330_ - swore at myself in frustration for eating a _second_ chocolate muffin
+
+This is going to be quite a challenge.
