@@ -51,5 +51,6 @@ _25th April_
 - _1030_ - bemoaned a boring talk I'd sat through
 - _1330_ - swore at myself in frustration for eating a _second_ chocolate muffin
 - _1530_ - internet at our new house is going to take an extra week to go live
+- _1555_ - swore at a bee
 
 This is going to be quite a challenge.
