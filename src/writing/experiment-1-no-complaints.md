@@ -46,7 +46,7 @@ I will keep track and post updates below as the days, weeks, months and hopefull
 
 ## Updates
 
-_25th April_
+_**25th April**_
 
 - _1030_ - bemoaned a boring talk I'd sat through
 - _1330_ - swore at myself in frustration for eating a _second_ chocolate muffin
@@ -54,3 +54,12 @@ _25th April_
 - _1555_ - swore at a bee
 
 This is going to be quite a challenge.
+
+_**2nd May - One Week In**_
+
+I'm still on day one. It's hard.
+I've been religiously tracking every swap and there is positive improvement. The first couple of days I averaged over 10-12 complaints per day whereas yesterday and the day before averaged just 3.
+
+I am slowly becoming significantly more aware of my words (and thoughts) and have stopped myself complaining by holding my tongue or rephrasing my opinion on several occasions.
+
+I have been quite shocked at how many of the complaints are "in jest"; sarcasm and joky replies or comments that are focussing on the negative. It is a clear habit of mine and so far has been the hardest type of complaint to negate.
