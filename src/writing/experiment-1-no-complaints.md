@@ -63,3 +63,8 @@ I've been religiously tracking every swap and there is positive improvement. The
 I am slowly becoming significantly more aware of my words (and thoughts) and have stopped myself complaining by holding my tongue or rephrasing my opinion on several occasions.
 
 I have been quite shocked at how many of the complaints are "in jest"; sarcasm and joky replies or comments that are focussing on the negative. It is a clear habit of mine and so far has been the hardest type of complaint to negate.
+
+_**9th May - Two Weeks In**_
+
+Day one again.
+Big improvements though. Got to day three and day two, much more aware of my words and actions. Driving and co-parenting are my big areas of weakness where the odd complaint will slip out. Working on it.
