@@ -9,6 +9,17 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/css')
   eleventyConfig.addPassthroughCopy('./src/assets')
 
+  // Add collection for notes using the directory structure
+  eleventyConfig.addCollection('notes', function (collectionApi) {
+    // Get all markdown files in the notes directory
+    const notesCollection = collectionApi.getFilteredByGlob('src/notes/*.md')
+    console.log(`Found ${notesCollection.length} notes via glob pattern`)
+
+    return notesCollection.sort((a, b) => {
+      return new Date(b.date) - new Date(a.date) // Sort by date in descending order
+    })
+  })
+
   eleventyConfig.addFilter('postDate', (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED)
   })

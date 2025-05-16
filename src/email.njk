@@ -1,0 +1,68 @@
+{% extends "base.njk" %}
+{% block main %}
+<a class="muted small" href="/">← rory flint</a>
+<h1>Newsletter</h1>
+
+<div id="newsletterContent">
+  <p>Sign up to receive updates and new content directly to your inbox.</p>
+  
+  <div id="signupForm">
+    <form id="newsletterForm" onsubmit="handleSubmit(event)">
+      <div style="display: flex; margin-bottom: 1em;">
+        <input 
+          type="email" 
+          id="emailInput" 
+          name="email" 
+          placeholder="Your email address" 
+          required
+          style="flex: 1; padding: 0.6em; font-size: 1em; border: 1px solid var(--lightgray); background: var(--background); color: var(--main-text);"
+        >
+        <button 
+          type="submit" 
+          style="margin-left: 0.5em; padding: 0.6em 1em; background: var(--link); color: white; border: none; cursor: pointer; font-size: 1em; border-radius: 4px;"
+        >
+          Subscribe
+        </button>
+      </div>
+    </form>
+  </div>
+  
+  <div id="successMessage" style="display: none;">
+    <p style="font-weight: bold; color: var(--link);">Thank you! You should receive a confirmation email shortly.</p>
+  </div>
+</div>
+
+<script>
+  function handleSubmit(event) {
+    event.preventDefault();
+    
+    // Here you would typically add your email submission logic
+    // This could be a fetch request to your backend API
+    // For example:
+    // 
+    // fetch('/api/newsletter-signup', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Content-Type': 'application/json',
+    //   },
+    //   body: JSON.stringify({
+    //     email: document.getElementById('emailInput').value
+    //   })
+    // })
+    // .then(response => response.json())
+    // .then(data => {
+    //   // Show success message
+    //   document.getElementById('signupForm').style.display = 'none';
+    //   document.getElementById('successMessage').style.display = 'block';
+    // })
+    // .catch(error => {
+    //   console.error('Error:', error);
+    //   alert('There was an error submitting your email. Please try again.');
+    // });
+    
+    // For demonstration purposes, we'll just show the success message
+    document.getElementById('signupForm').style.display = 'none';
+    document.getElementById('successMessage').style.display = 'block';
+  }
+</script>
+{% endblock %}
