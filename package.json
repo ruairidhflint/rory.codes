@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "eleventy --serve",
-    "build": "eleventy",
+    "dev:eleventy": "eleventy --serve",
+    "watch:css": "postcss src/css/styles.css -o _site/css/styles.css --watch",
+    "dev": "npm-run-all --parallel dev:eleventy watch:css",
+    "build:css": "postcss src/css/styles.css -o _site/css/styles.css",
+    "build": "eleventy && npm run build:css",
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
     "lint:check": "eslint .",
@@ -14,14 +17,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.1.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
-    "eslint": "^8.22.0"
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.0.7",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "prettier": "^2.7.1"
   },
   "dependencies": {
-    "eslint-config-prettier": "^8.5.0",
     "markdown-it": "^13.0.1",
-    "markdown-it-checkbox": "^1.1.0",
-    "prettier": "^2.7.1"
+    "markdown-it-checkbox": "^1.1.0"
   }
 }

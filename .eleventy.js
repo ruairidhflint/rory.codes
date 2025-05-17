@@ -6,7 +6,8 @@ const markdownItCheckbox = require('markdown-it-checkbox')
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight)
 
-  eleventyConfig.addPassthroughCopy('./src/css')
+  // eleventyConfig.addPassthroughCopy('./src/css') // Removed, PostCSS handles this
+  eleventyConfig.addWatchTarget('./src/css/') // Watch for CSS changes
   eleventyConfig.addPassthroughCopy('./src/assets')
 
   // Add collection for notes using the directory structure
@@ -34,8 +35,6 @@ module.exports = function (eleventyConfig) {
   }
 
   let md = markdownIt(options).use(markdownItCheckbox)
-  md.render('[ ] unchecked')
-  md.render('[x] checked')
 
   eleventyConfig.setLibrary('md', md)
 
