@@ -2,13 +2,20 @@ const { DateTime } = require('luxon')
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const markdownIt = require('markdown-it')
 const markdownItCheckbox = require('markdown-it-checkbox')
+const sitemap = require('@quasibit/eleventy-plugin-sitemap')
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight)
+  eleventyConfig.addPlugin(sitemap, {
+    sitemap: {
+      hostname: 'https://rory.codes',
+    },
+  })
 
   // eleventyConfig.addPassthroughCopy('./src/css') // Removed, PostCSS handles this
   eleventyConfig.addWatchTarget('./src/css/') // Watch for CSS changes
   eleventyConfig.addPassthroughCopy('./src/assets')
+  // eleventyConfig.addPassthroughCopy({ 'src/robots.txt.njk': 'robots.txt' }) // Removed, permalink handles this
 
   // Add collection for notes using the directory structure
   eleventyConfig.addCollection('notes', function (collectionApi) {

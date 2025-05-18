@@ -1,51 +1,42 @@
-<head>
 <script async src="https://analytics.umami.is/script.js" data-website-id="360e23fb-dc51-4801-8584-453e13c2442c"></script>
-  <meta content="text/html; charset=UTF-8" name="Content-Type" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <meta property="og:site_name" content="{{ title }}" />
-  <meta property="og:locale" content="en_US" />
+<title>{{ title or metadata.title }}</title>
+<meta name="description" content="{{ description or metadata.description }}" />
+<meta name="author" content="{{ metadata.author or 'Rory Flint' }}" /> {# Assuming you might add author to metadata.json #}
 
-  <meta property="og:title" content="{{ title }}" />
-  <meta property="og:type" content="article" />
-{% if description %}
-  <meta property="og:description" content="{{ description }}" />
-    <meta name="description" content="{{ description }}" />
-  {% else %}
-    <meta name="description" content="Portfolio and writing of Software Developer Rory Flint" />
-  <meta property="og:description" content="Portfolio and writing of Software Developer Rory Flint" />
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="{{ og_type or 'website' }}" />
+<meta property="og:site_name" content="{{ metadata.title }}" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="{{ title or metadata.title }}" />
+<meta property="og:description" content="{{ description or metadata.description }}" />
+<meta property="og:url" content="{{ metadata.url }}{{ page.url | url }}" /> {# page.url is already the full path from site root, |url filter is good practice #}
+<meta property="og:image" content="{{ metadata.url }}{{ og_image or metadata.default_og_image | url }}" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@mrroryflint" /> {# Or {{ metadata.twitter_handle }} #}
+<meta name="twitter:creator" content="@mrroryflint" /> {# Or {{ metadata.twitter_handle }} #}
+<meta name="twitter:title" content="{{ title or metadata.title }}" />
+<meta name="twitter:description" content="{{ description or metadata.description }}" />
+<meta name="twitter:image" content="{{ metadata.url }}{{ og_image or metadata.default_og_image | url }}" />
+
+{% if page.url %}
+<link rel="canonical" href="{{ metadata.url }}{{ page.url | url }}" />
 {% endif %}
 
+<link rel="icon" href="{{ '/assets/32.png' | url }}" sizes="32x32">
+<link rel="icon" href="{{ '/assets/192.png' | url }}" sizes="192x192">
+<link rel="icon" href="{{ '/assets/favicon.ico' | url }}" type="image/x-icon" />
 
-<meta property="og:image" content="/assets/192.png" />
-<meta name="author" content="Rory Flint" />
+<link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
 
-{% if permalink %}
-  <meta property="og:url" content="https://rory.codes{{ permalink }}"  />  
-  <link rel="canonical" href="https://rory.codes{{ permalink }}"  />
-  {% else %}
-  <meta property="og:url" content="https://rory.codes" />  
-  <link rel="canonical" href="https://rory.codes" />
-{% endif %}
-
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:image" content="https://rory.codes/assets/192.png" />
-  <meta name="twitter:site" content="@mrroryflint" />
-  <meta name="twitter:creator" content="@mrroryflint" />
-
-  <link rel="icon" href="/assets/32.png" sizes="32x32">
-  <link rel="icon" href="/assets/192.png"sizes="192x192"> 
-
-  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />  
-  <title>{{ title }} - Rory Flint</title>  
-  <link rel="stylesheet" href="{{ '/css/styles.css' }}">
-      <script>
-      const isDarkMode = () => localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
-      if (isDarkMode()) {
-        document.documentElement.classList.add('dark')
-      } else {
-        document.documentElement.classList.remove('dark')
-      }
-    </script>
-</head>
+<script>
+    const isDarkMode = () => localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    if (isDarkMode()) {
+    document.documentElement.classList.add('dark')
+    } else {
+    document.documentElement.classList.remove('dark')
+    }
+</script>
