@@ -1,20 +1,72 @@
-<style>
-  .root {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(135deg, #ef629f, #eecda3);
-  }
-
-  .title {
-    color: white;
-    font-size: 80px;
-    margin: auto 0;
-  }
-</style>
-
-<div class="root">
-  <h1 class="title">{{ title }}</h1>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OG Image</title>
+    <style>
+      html {
+        width: 1200px;
+        height: 630px;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        width: 1200px; /* Standard OG image width */
+        height: 630px; /* Standard OG image height */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Helvetica', sans-serif; /* Base font family */
+        background-color: #fff; /* Ensure body itself has white background */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff; /* Explicit white background for container */
+        position: relative; /* Added: for absolute positioning of the symbol */
+      }
+      .symbol {
+        position: absolute; /* Added: to position in top-left */
+        top: 25px;          /* Added: distance from top */
+        left: 25px;         /* Added: distance from left */
+        font-size: 72px;    /* Changed: from 48px to make it larger (asterisk char width ~30-35px) */
+        color: black;       /* Existing */
+        line-height: 1;     /* Added: to better control element height */
+        /* margin-bottom: 20px; Removed: not needed for absolute positioning */
+      }
+      .title {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Changed: for a slightly nicer look */
+        font-weight: 300;   /* Changed: lighter font weight for a more refined feel */
+        font-size: 60px;    /* Existing */
+        color: black;       /* Existing */
+        line-height: 1.3;   /* Existing */
+        max-width: 90%;     /* Existing */
+        text-transform: lowercase; /* Existing */
+      }
+      .site-name {
+        display: none;      /* Existing */
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="symbol">
+      *
+    </div>
+    <div class="title">
+      {{ title | safe }}
+    </div>
+  </div>
+</body>
+</html>
