@@ -12,7 +12,7 @@
 <meta property="og:title" content="{{ title or metadata.title }}" />
 <meta property="og:description" content="{{ description or metadata.description }}" />
 <meta property="og:url" content="{{ metadata.url }}{{ page.url | url }}" /> {# page.url is already the full path from site root, |url filter is good practice #}
-<meta property="og:image" content="{{ metadata.url }}{{ og_image or metadata.default_og_image | url }}" />
+{% ogImage "_includes/og/og-image.njk", { title: title or metadata.title } %}
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
@@ -20,7 +20,7 @@
 <meta name="twitter:creator" content="@mrroryflint" /> {# Or {{ metadata.twitter_handle }} #}
 <meta name="twitter:title" content="{{ title or metadata.title }}" />
 <meta name="twitter:description" content="{{ description or metadata.description }}" />
-<meta name="twitter:image" content="{{ metadata.url }}{{ og_image or metadata.default_og_image | url }}" />
+<meta name="twitter:image" content="{{ metadata.url }}{{ ogImage._ogImagePath }}" />
 
 {% if page.url %}
 <link rel="canonical" href="{{ metadata.url }}{{ page.url | url }}" />

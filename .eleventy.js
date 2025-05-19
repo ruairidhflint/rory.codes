@@ -3,12 +3,27 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const markdownIt = require('markdown-it')
 const markdownItCheckbox = require('markdown-it-checkbox')
 const sitemap = require('@quasibit/eleventy-plugin-sitemap')
-
-module.exports = function (eleventyConfig) {
+const fs = require('fs')
+module.exports = async function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight)
   eleventyConfig.addPlugin(sitemap, {
     sitemap: {
       hostname: 'https://rory.codes',
+    },
+  })
+
+  const EleventyPluginOgImage = (await import('eleventy-plugin-og-image'))
+    .default
+  eleventyConfig.addPlugin(EleventyPluginOgImage, {
+    satoriOptions: {
+      fonts: [
+        {
+          name: 'Helvetica',
+          data: fs.readFileSync('./src/assets/fonts/Helvetica.ttf'),
+          weight: 700,
+          style: 'normal',
+        },
+      ],
     },
   })
 
