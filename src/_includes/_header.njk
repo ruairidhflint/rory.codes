@@ -21,6 +21,7 @@
 <meta name="twitter:title" content="{{ title or metadata.title }}" />
 <meta name="twitter:description" content="{{ description or metadata.description }}" />
 <meta name="twitter:image" content="{{ metadata.url }}{{ ogImage._ogImagePath }}" />
+<meta name="twitter:image:alt" content="{{ title or metadata.title }}" />
 
 {% if page.url %}
 <link rel="canonical" href="{{ metadata.url }}{{ page.url | url }}" />
@@ -28,6 +29,7 @@
 
 <link rel="icon" href="{{ '/assets/32.png' | url }}" sizes="32x32">
 <link rel="icon" href="{{ '/assets/192.png' | url }}" sizes="192x192">
+<link rel="apple-touch-icon" href="{{ '/assets/192.png' | url }}">
 <link rel="icon" href="{{ '/assets/favicon.ico' | url }}" type="image/x-icon" />
 
 <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
