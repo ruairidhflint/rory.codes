@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OG Image</title>
     <style>
       html {
         width: 1200px;
@@ -31,28 +30,30 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-end;
+        justify-content: flex-end;
         background-color: #fff; /* Explicit white background for container */
-        position: relative; /* Added: for absolute positioning of the symbol */
+        position: relative; /* Existing: for absolute positioning of the symbol */
+        padding: 50px; /* Added for spacing */
+        box-sizing: border-box; /* Added for robust padding behavior */
       }
       .symbol {
         position: absolute; /* Added: to position in top-left */
-        top: 25px;          /* Added: distance from top */
-        left: 25px;         /* Added: distance from left */
-        font-size: 72px;    /* Changed: from 48px to make it larger (asterisk char width ~30-35px) */
+        top: 50px;          /* Added: distance from top */
+        left: 50px;         /* Added: distance from left */
+        font-size: 200px;    /* Changed: from 48px to make it larger (asterisk char width ~30-35px) */
         color: black;       /* Existing */
         line-height: 1;     /* Added: to better control element height */
         /* margin-bottom: 20px; Removed: not needed for absolute positioning */
       }
       .title {
-        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Changed: for a slightly nicer look */
-        font-weight: 300;   /* Changed: lighter font weight for a more refined feel */
-        font-size: 60px;    /* Existing */
+        font-family: 'Helvetica', Arial, sans-serif; /* Changed: for a slightly nicer look */
+        font-weight: 500;   /* Changed: lighter font weight for a more refined feel */
+        font-size: 50px;    /* Existing */
         color: black;       /* Existing */
         line-height: 1.3;   /* Existing */
         max-width: 90%;     /* Existing */
-        text-transform: lowercase; /* Existing */
+        text-align: right;
       }
       .site-name {
         display: none;      /* Existing */
