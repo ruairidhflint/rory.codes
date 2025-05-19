@@ -12,14 +12,10 @@ module.exports = function (eleventyConfig) {
     },
   })
 
-  // eleventyConfig.addPassthroughCopy('./src/css') // Removed, PostCSS handles this
-  eleventyConfig.addWatchTarget('./src/css/') // Watch for CSS changes
+  eleventyConfig.addWatchTarget('./src/css/')
   eleventyConfig.addPassthroughCopy('./src/assets')
-  // eleventyConfig.addPassthroughCopy({ 'src/robots.txt.njk': 'robots.txt' }) // Removed, permalink handles this
 
-  // Add collection for notes using the directory structure
   eleventyConfig.addCollection('notes', function (collectionApi) {
-    // Get all markdown files in the notes directory
     const notesCollection = collectionApi.getFilteredByGlob('src/notes/*.md')
     console.log(`Found ${notesCollection.length} notes via glob pattern`)
 
