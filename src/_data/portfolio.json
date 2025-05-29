@@ -1,37 +1,62 @@
 [
   {
-    "title": "Sundial",
-    "description": "iOS app to provide Sundial insights as a memento mori",
-    "url": "https://apps.apple.com/gb/app/sundial/id6744170610"
-  },
-  {
     "title": "Day by Day",
     "description": "A Day by Day visualisation of my life",
-    "url": "https://days.rory.codes/"
+    "url": "https://days.rory.codes/",
+    "visible": true
   },
   {
     "title": "Calendar of Wisdom",
     "description": "Daily insight and reflections from A Calendar of Wisdom by Leo Tolstoy",
-    "url": "https://www.calendarof.life/"
+    "url": "https://www.calendarof.life/",
+    "visible": true
   },
   {
     "title": "Goggins Blocker",
     "description": "A Chrome extension to block unproductive websites featuring David Goggins",
-    "url": "https://chromewebstore.google.com/detail/goggins-blocker/kpnafocdjkofgnpaafppplaghogpgadk?pli=1"
+    "url": "https://chromewebstore.google.com/detail/goggins-blocker/kpnafocdjkofgnpaafppplaghogpgadk?pli=1",
+    "visible": true
   },
   {
     "title": "Jurnl",
     "description": "A stream of consciousness, ephemeral text editors",
-    "url": "https://jurnl.rory.codes/"
+    "url": "https://jurnl.rory.codes/",
+    "visible": true
   },
   {
     "title": "Oxygenie",
     "description": "Mac app to check air quality at your current location",
-    "url": "https://oxygenie.netlify.app/"
+    "url": "https://oxygenie.netlify.app/",
+    "visible": true
+  },
+  {
+    "title": "Sundial",
+    "description": "iOS app to provide Sundial insights as a memento mori",
+    "url": "https://apps.apple.com/gb/app/sundial/id6744170610",
+    "visible": false
   },
   {
     "title": "Ceriph",
     "description": "A simple cypher tool for encrypting and decrypting text",
-    "url": "https://ceriph.netlify.app/"
+    "url": "https://ceriph.netlify.app/",
+    "visible": false
+  },
+  {
+    "title": "Career Drivers",
+    "description": "A tool to help you identify your career drivers",
+    "url": "https://career.rory.codes",
+    "visible": false
+  },
+  {
+    "title": "React Uptime Status (NPM)",
+    "description": "An uptime status display for React apps",
+    "url": "https://www.npmjs.com/package/react-uptime-status",
+    "visible": false
+  },
+  {
+    "title": "Infinite Hagakure",
+    "description": "An endlessly scrolling collection of quotes from the book Hagakure, globally synced",
+    "url": "https://hagakure.space",
+    "visible": false
   }
 ]

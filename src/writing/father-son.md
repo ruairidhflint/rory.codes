@@ -1,6 +1,6 @@
 ---
 layout: 'writing.njk'
-title: A Bittersweet Year - Becoming a Father After Losing One
+title: A Bittersweet Year - Becoming a Father After Losing Mine
 permalink: /becoming-a-father-after-losing-one/
 description: Reflections on 2023. Losing my father and becoming a father.
 date: '2024-02-13'

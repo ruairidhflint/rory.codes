@@ -43,6 +43,10 @@ module.exports = async function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED)
   })
 
+  eleventyConfig.addFilter('visible', (collection) => {
+    return collection.filter((item) => item.visible === true)
+  })
+
   eleventyConfig.addShortcode('year', () => {
     const year = new Date().getFullYear()
     return `${year}`

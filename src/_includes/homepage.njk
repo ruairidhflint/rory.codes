@@ -7,13 +7,15 @@
 <hr />
 <h2>Projects</h2>
 <ul>
-  {% for item in portfolio  %}
+  {% for item in portfolio | visible %}
   <li>
     <a class="post-link" href="{{ item.url }}" target="_blank ">{{ item.title }}</a> -
     {{item.description}}
   </li>
   {% endfor %}
 </ul>
+
+<p>More projects can be found <a href="/projects">here</a></p>
 
 <h2>Writing</h2>
 <ul>
