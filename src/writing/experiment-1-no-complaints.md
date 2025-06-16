@@ -1,6 +1,6 @@
 ---
 layout: 'writing.njk'
-title: 21 Day Experiment - No Complaining
+title: '21 Day Experiment #1 - No Complaining'
 permalink: /experiment-1-no-complaining/
 description: The first of several 21 Day Experiments. No Complaining.
 date: '2025-04-25'

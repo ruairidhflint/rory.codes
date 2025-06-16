@@ -6,6 +6,7 @@
 <p class="muted small">First published on {{ page.date | postDate }}</p>
 {% endif %} 
 {{ content | safe }}
+{% render_sources %}
 {% include "./_footer.njk" %}
 {% endblock %}
 

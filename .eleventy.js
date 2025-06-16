@@ -4,7 +4,43 @@ const markdownIt = require('markdown-it')
 const markdownItCheckbox = require('markdown-it-checkbox')
 const sitemap = require('@quasibit/eleventy-plugin-sitemap')
 const fs = require('fs')
+
 module.exports = async function (eleventyConfig) {
+  const sources = {}
+
+  eleventyConfig.addShortcode('cite', function (url) {
+    if (!sources[this.page.url]) {
+      sources[this.page.url] = []
+    }
+
+    let index = sources[this.page.url].findIndex((item) => item.url === url)
+
+    if (index === -1) {
+      sources[this.page.url].push({ url })
+      index = sources[this.page.url].length - 1
+    }
+
+    return `<sup class="citation"><a href="#citation-${
+      index + 1
+    }">[${index + 1}]</a></sup>`
+  })
+
+  eleventyConfig.addShortcode('render_sources', function () {
+    if (!sources[this.page.url] || sources[this.page.url].length === 0) {
+      return ''
+    }
+
+    const sourceList = sources[this.page.url]
+      .map(
+        (source, index) => `<li id="citation-${index + 1}">${source.url}</li>`
+      )
+      .join('')
+
+    return `<hr>
+<h3>Sources</h3>
+<ol class="sources">${sourceList}</ol>`
+  })
+
   eleventyConfig.addPlugin(syntaxHighlight)
   eleventyConfig.addPlugin(sitemap, {
     sitemap: {
