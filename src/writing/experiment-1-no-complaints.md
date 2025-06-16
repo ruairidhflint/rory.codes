@@ -69,8 +69,13 @@ _**9th May - Two Weeks In**_
 Day one again.
 Big improvements though. Got to day three and day two, much more aware of my words and actions. Driving and co-parenting are my big areas of weakness where the odd complaint will slip out. Working on it.
 
-_**2nd June - Progres...but still Day One**_
+_**2nd June - Progress...but still Day One**_
 
 Since the last update, I have a couple of longer stretches including a seven-day streak that broke on May 31st after a particularly difficult week. It is clear that whilst I am hugely improved when it comes to the larger issues of life, it is the trivial small annoyances that seem to provoke the loudest complaints. This is particularly noticeable after a cumulative period of stress and doubly and triply exacerbated if I'm hungry and/or tired.
 
 Oh, and I had to order a new wristband. The first one broke due to too many arm switches.
+
+_**16th June**_
+
+I wouldn't go so far as to say I have given up, but paying attention to complaints and moving the wristband is mostly forgotten. I am going to reset and
+restart this week and try and reinvigorate the process.
