@@ -3,6 +3,7 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const markdownIt = require('markdown-it')
 const markdownItCheckbox = require('markdown-it-checkbox')
 const sitemap = require('@quasibit/eleventy-plugin-sitemap')
+const pluginRss = require('@11ty/eleventy-plugin-rss')
 const fs = require('fs')
 
 module.exports = async function (eleventyConfig) {
@@ -42,6 +43,7 @@ module.exports = async function (eleventyConfig) {
   })
 
   eleventyConfig.addPlugin(syntaxHighlight)
+  eleventyConfig.addPlugin(pluginRss)
   eleventyConfig.addPlugin(sitemap, {
     sitemap: {
       hostname: 'https://rory.codes',

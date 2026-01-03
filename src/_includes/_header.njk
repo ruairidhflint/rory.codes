@@ -27,10 +27,58 @@
 <link rel="canonical" href="{{ metadata.url }}{{ page.url | url }}" />
 {% endif %}
 
+<link rel="alternate" href="{{ '/feed.xml' | url }}" type="application/atom+xml" title="Rory Flint's Blog">
+
 <link rel="icon" href="{{ '/assets/32.png' | url }}" sizes="32x32">
 <link rel="icon" href="{{ '/assets/192.png' | url }}" sizes="192x192">
 <link rel="apple-touch-icon" href="{{ '/assets/192.png' | url }}">
 <link rel="icon" href="{{ '/assets/favicon.ico' | url }}" type="image/x-icon" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ metadata.title }}",
+  "url": "{{ metadata.url }}",
+  "description": "{{ metadata.description }}",
+  "author": {
+    "@type": "Person",
+    "name": "Rory Flint"
+  }
+  {% if page.url == '/' %},
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ metadata.url }}/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+  {% endif %}
+}
+</script>
+{% if page.date and title %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ title }}",
+  "url": "{{ metadata.url }}{{ page.url | url }}",
+  "datePublished": "{{ page.date | dateToRfc3339 }}",
+  "dateModified": "{{ page.date | dateToRfc3339 }}",
+  "author": {
+    "@type": "Person",
+    "name": "Rory Flint"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ metadata.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ metadata.url }}/assets/192.png"
+    }
+  },
+  "description": "{{ description or metadata.description }}"
+}
+</script>
+{% endif %}
 
 <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
 
