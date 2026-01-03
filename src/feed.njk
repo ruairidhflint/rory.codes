@@ -15,7 +15,7 @@ metadata:
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.subtitle }}</subtitle>
   <link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self"/>
-  <link href="{{ metadata.url }}"/>
+  <link href="{{ metadata.url }}" rel="alternate"/>
   <updated>{{ collections.post | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
   <author>
