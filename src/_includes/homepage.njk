@@ -20,7 +20,11 @@
 <h2>Writing</h2>
 <ul>
   {% for post in collections.post | reverse %}
-  <li><a class="post-link" href="{{ post.url }}">{{ post.data.title }}</a> <span class="post-date">{{ post.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short' }) }}</span></li>
+  <li>
+    <a class="post-link" href="{{ post.url }}">{{ post.data.title }}</a>
+    {% if post.date | isNew %}<span class="new-badge">New</span>{% endif %}
+    <span class="post-date">{{ post.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short' }) }}</span>
+  </li>
   {% endfor  %}
 </ul>
 {% endblock %}

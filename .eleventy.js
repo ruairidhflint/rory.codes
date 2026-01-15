@@ -85,6 +85,13 @@ module.exports = async function (eleventyConfig) {
     return collection.filter((item) => item.visible === true)
   })
 
+  eleventyConfig.addFilter('isNew', (date) => {
+    const now = new Date()
+    const postDate = new Date(date)
+    const daysDiff = Math.floor((now - postDate) / (1000 * 60 * 60 * 24))
+    return daysDiff <= 300
+  })
+
   eleventyConfig.addShortcode('year', () => {
     const year = new Date().getFullYear()
     return `${year}`

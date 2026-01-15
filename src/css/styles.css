@@ -7,6 +7,7 @@
   --black: #000;
   --link: #0072d6;
   --green: #99ffdd;
+  --orange-red: #ff5722;
 }
 
 .dark {
@@ -124,6 +125,14 @@ footer {
 .post-date {
   font-size: 0.85em;
   color: var(--mediumgray);
+}
+
+.new-badge {
+  display: inline-block;
+  font-size: 0.75em;
+  font-weight: normal;
+  margin-left: 0.4em;
+  color: var(--orange-red); */
 }
 
 .flex {
