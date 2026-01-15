@@ -89,7 +89,7 @@ module.exports = async function (eleventyConfig) {
     const now = new Date()
     const postDate = new Date(date)
     const daysDiff = Math.floor((now - postDate) / (1000 * 60 * 60 * 24))
-    return daysDiff <= 300
+    return daysDiff <= 30
   })
 
   eleventyConfig.addShortcode('year', () => {
