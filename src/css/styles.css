@@ -98,8 +98,8 @@ li {
 
 @media (max-width: 600px) {
   ul {
-    padding: 0;
-    list-style-position: inside;
+    padding-left: 1.2em;
+    list-style-position: outside;
   }
 }
 
@@ -119,6 +119,11 @@ footer {
 
 .small {
   font-size: 0.8em;
+}
+
+.post-date {
+  font-size: 0.85em;
+  color: var(--mediumgray);
 }
 
 .flex {
