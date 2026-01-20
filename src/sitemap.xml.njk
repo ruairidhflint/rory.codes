@@ -1,0 +1,24 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- for item in collections.all -%}
+    {%- if item.url
+      and item.url != "/404.html"
+      and item.url != "/feed.xml"
+      and item.url != "/robots.txt"
+      and not item.url.startsWith("/og-images/")
+      and not item.data.eleventyExcludeFromCollections
+      and item.outputPath
+      and item.outputPath.endsWith(".html")
+    -%}
+  <url>
+    <loc>{{ item.url | absoluteUrl(metadata.url) }}</loc>
+    <lastmod>{{ item.date | dateToRfc3339 }}</lastmod>
+  </url>
+    {%- endif -%}
+  {%- endfor -%}
+</urlset>
+
