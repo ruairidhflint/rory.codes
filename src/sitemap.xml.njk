@@ -16,7 +16,10 @@ eleventyExcludeFromCollections: true
     -%}
   <url>
     <loc>{{ item.url | absoluteUrl(metadata.url) }}</loc>
-    <lastmod>{{ item.date | dateToRfc3339 }}</lastmod>
+    {%- set lastmod = item | sitemapLastmod -%}
+    {%- if lastmod -%}
+    <lastmod>{{ lastmod | dateToRfc3339 }}</lastmod>
+    {%- endif -%}
   </url>
     {%- endif -%}
   {%- endfor -%}

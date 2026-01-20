@@ -7,6 +7,7 @@ const fs = require('fs')
 
 module.exports = async function (eleventyConfig) {
   const sources = {}
+  const hasOwn = (obj, key) => Object.prototype.hasOwnProperty.call(obj, key)
 
   eleventyConfig.addShortcode('cite', function (url) {
     if (!sources[this.page.url]) {
@@ -84,6 +85,13 @@ module.exports = async function (eleventyConfig) {
     const postDate = new Date(date)
     const daysDiff = Math.floor((now - postDate) / (1000 * 60 * 60 * 24))
     return daysDiff <= 30
+  })
+
+  // For sitemap accuracy: only emit <lastmod> when content has an explicit
+  // frontmatter `date`. Otherwise Eleventy may fall back to build/FS dates.
+  eleventyConfig.addFilter('sitemapLastmod', (item) => {
+    if (!item || !item.data || !hasOwn(item.data, 'date')) return null
+    return item.date
   })
 
   eleventyConfig.addShortcode('year', () => {
