@@ -14,6 +14,8 @@ Beyond work I read voraciously, build plenty of side projects and try to live a 
 
 Here's what I'm doing [now](/now/).
 
+You can also read my [CV](/cv/).
+
 ## Contact
 
 - <a href="mailto:roryflintphoto@gmail.com" target="_blank">Email me</a> at roryflintphoto at gmail dot com
