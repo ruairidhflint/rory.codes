@@ -1,3 +1,2 @@
-1.) Full size screenshot on macbook screen with no bookmark bar (2880 × 1594)
-2.) Resize width (800 × 443) (72ppi)
-3.) Convert to webp
+Resize width (800 × 443) (72ppi)
+Convert to webp

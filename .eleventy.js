@@ -2,6 +2,7 @@ const { DateTime } = require('luxon')
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const markdownIt = require('markdown-it')
 const markdownItCheckbox = require('markdown-it-checkbox')
+const markdownItFootnote = require('markdown-it-footnote')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const fs = require('fs')
 
@@ -103,7 +104,7 @@ module.exports = async function (eleventyConfig) {
     html: true,
   }
 
-  let md = markdownIt(options).use(markdownItCheckbox)
+  let md = markdownIt(options).use(markdownItCheckbox).use(markdownItFootnote)
 
   eleventyConfig.setLibrary('md', md)
 

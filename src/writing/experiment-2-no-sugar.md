@@ -8,7 +8,7 @@ date: '2025-06-16'
 
 For the uninitiated, I am taking on a series of 21-day experiments. A brief introduction can be found [here](/experiment-1-no-complaining).
 
-We all know what is going to happen, right? Sugar, in the modern sense, is probably bad. Very bad. It's in everything and we can't stop eating it. Here in the UK, we are eating three times the recommended amount of sugar{% cite "https://www.theguardian.com/society/2015/oct/23/sugar-britains-obesity-crisis-key-questions-answered" %} and that is taking into account what appears to be a fairly liberal definition of what a "normal" amount is.
+We all know what is going to happen, right? Sugar, in the modern sense, is probably bad. Very bad. It's in everything and we can't stop eating it. Here in the UK, we are eating three times the recommended amount of sugar[^1] and that is taking into account what appears to be a fairly liberal definition of what a "normal" amount is.
 
 I have a sugar problem. A serious one. Every meal ends with sweets, biscuits, or chocolate - often a combination. The afternoon and evening are punctuated by more sweet snacking and most meals include the addition of some sugary sauce.
 
@@ -40,3 +40,5 @@ The first and second points interest me the most. I expected to maybe drop a pou
 Energy and mood are solid and, more importantly, feel under my control. Lulls in either are more easily diagnosed as frustration with a work task or some personal disagreement, as opposed to this insulin spectre pulling strings behind the scenes.
 
 I am slightly embarrassed to say this publicly, but I feel proud. Sugar has been an almost impossible-to-conquer "addiction" for many year**s**, and 21 days later, not only have I succeeded in completing the experiment, but I truly feel no real pull to go back. I will no doubt indulge in a sweet treat now and then, but honestly, I think me and sugar are done.
+
+[^1]: [Sugar and Britain's obesity crisis — key questions answered](https://www.theguardian.com/society/2015/oct/23/sugar-britains-obesity-crisis-key-questions-answered), The Guardian (2015)
