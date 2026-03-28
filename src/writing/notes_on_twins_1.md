@@ -6,7 +6,7 @@ description: Observations on twins after the first fifty days.
 date: '2026-03-13'
 ---
 
-> Quick housekeeping before we dive inI. I've started a Substack dedicated to fatherhood writing. This piece is cross-posted there. If that's your kind of thing, [check it out](https://roryflint.substack.com/p/notes-on-twins-vol-1).
+> Quick housekeeping before we dive in. I've started a Substack dedicated to fatherhood writing. This piece is cross-posted there. If that's your kind of thing, [check it out](https://roryflint.substack.com/p/notes-on-twins-vol-1).
 
 Fifty days ago, our little family of three became a not-so-little family of five. Arthur and Evelyn arrived a little early, perfectly happy and healthy.
 
