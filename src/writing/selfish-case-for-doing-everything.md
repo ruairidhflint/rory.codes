@@ -8,6 +8,8 @@ date: '2026-03-17'
 
 > Quick housekeeping before we dive in. I've started a Substack dedicated to fatherhood writing. This piece is cross-posted there. If that's your kind of thing, [check it out](https://roryflint.substack.com/p/the-selfish-case-for-doing-everything).
 
+![First Steps, after Millet by Vincent van Gogh](/assets/images/van-gogh.webp 'First Steps, after Millet by Vincent van Gogh')
+
 We are all busy. Busy with work, busy with life. I thought I was busy too, until the twins arrived. It turns out I wasn’t busy at all, I was living a life of time excess. I had time to do everything and then time to choose to do something else.
 Young children not only come with a very literal laundry list of essential daily chores, responsibilities and commitments but also emotional and physical needs that drastically reduce your capacity to do simple things you were doing before they were born. Babies in particular give you way more to do in far less time.
 
@@ -34,7 +36,7 @@ By taking total ownership, I own the task and remove the possibility for that re
 
 One important note: there is a fine line between taking absolute responsibility and burning out. This is not a David Goggins-esque manifesto to refuse sleep, run on broken legs and never give in. Sometimes taking responsibility means accepting help, delegating where possible, and resting so you can manage your energy, time and emotions effectively. Set things up so that friends and family know what needs to be done and can step in easily.
 
-# IMAGE
+![Sisyphus by Titian](/assets/images/sis.webp 'Sisyphus by Titian')
 
 The second half is equally important: “you will expect nothing in return”. After you bear the responsibility and take ownership of everything you possibly can, you must expect no thanks, no gratitude and no favours in return. Not even acknowledgement is worth expecting. You are doing this thing, whatever the thing is, because it needs to be done. You are doing it for your partner, for your children and for yourself. Any sense of accomplishment, pride or achievement must be internally generated. This is absolutely imperative. Gratitude must come from within.
 
@@ -52,9 +54,5 @@ It is counterintuitive, but I have found that going in head first, taking on mor
 My AI policy when it comes to writing can be found [here](/ai-policy).
 
 ---
-
-
-
-![Arthur and Evelyn Flint](/assets/images/twins.webp 'Arthur and Evelyn Flint')
 
 [^1]: Never truly. A baby crying is an annoying sound, until it's your own. Then it's heart-wrenching and primal.
