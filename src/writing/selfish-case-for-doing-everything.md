@@ -15,7 +15,7 @@ Young children not only come with a very literal laundry list of essential daily
 
 The assignment and management of tasks and responsibilities becomes so chaotic that the idea of equal distribution is so blurred there isn’t much point even trying. However, as human beings in relationships who had similar responsibilities previously, typically we see things through the lens of ‘fairness’. We think, “I’ve done this and this, so that is your job.” You can begin to feel resentful and frustrated that you do more than your fair share, of course, almost always being blind to the incredible pressures and battles your partner is facing.
 
-Facing this exact problem day after day, I stumbled1 across a simple but incredibly effective framework that alleviates the vast majority of the issues both internal and external.
+Facing this exact problem day after day, I stumbled[^1] across a simple but incredibly effective framework that alleviates the vast majority of the issues both internal and external.
 
 ### Everything is your responsibility and you will expect nothing in return.
 
