@@ -1,4 +1,10 @@
 [
+    {
+    "title": "Blind Dates",
+    "description": "An visual analysis of every Guardian Blind Date column since 2009.",
+    "url": "https://blinddates.rory.codes/",
+    "visible": true
+  },
   {
     "title": "Day by Day",
     "description": "A Day by Day visualisation of my life",
