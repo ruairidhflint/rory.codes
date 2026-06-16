@@ -1,7 +1,25 @@
 [
-    {
+  {
+    "title": "eyeball",
+    "description": "A numeric estimation game. Went viral for a while",
+    "url": "https://eyeball.rory.codes/",
+    "visible": true
+  },
+  {
+    "title": "Page One",
+    "description": "Search and view the first time a word or phrase was ever mentioned in The Guardian",
+    "url": "https://pageone.roryflint.workers.dev/",
+    "visible": true
+  },
+  {
+    "title": "Enigma",
+    "description": "An introduction to ciphers, culminating in a fully working Enigma machine",
+    "url": "https://enigma.rory.codes/",
+    "visible": true
+  },
+  {
     "title": "Blind Dates",
-    "description": "An visual analysis of every Guardian Blind Date column since 2009.",
+    "description": "An visual analysis of every Guardian Blind Date column since 2009",
     "url": "https://blinddates.rory.codes/",
     "visible": true
   },
