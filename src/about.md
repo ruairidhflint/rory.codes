@@ -10,7 +10,7 @@ photographer.
 
 Currently I work at <a href="https://tipalti.com/" target="_blank">Tipalti</a> , building mobile experiences on Android and iOS. Previously I led technology at <a href="https://cpandr.co.uk/" target="_blank">CP+R</a>, a cardiac rehabilitation specialist.
 
-Beyond work I read voraciously, build plenty of side projects and try to live a full life away from all things digital.
+Beyond work I [read voraciously](/150-books-in-a-year/), build plenty of side projects and try to live a full life away from all things digital.
 
 Here's what I'm doing [now](/now/).
 
