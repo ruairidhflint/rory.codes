@@ -1,0 +1,76 @@
+{% extends "base.njk" %}
+{% block main %}
+<header>
+  <a class="muted small" href="/">← rory flint</a>
+  <h1>{{ title }}</h1>
+</header>
+{{ content | safe }}
+
+<div class="gallery">
+  {% for photo in bookphotos %}
+  <a class="gallery-item" href="{{ photo.full | url }}" data-index="{{ loop.index0 }}" aria-label="Open photo {{ loop.index }}">
+    <img src="{{ photo.thumb | url }}" alt="Book {{ loop.index }} of {{ bookphotos.length }}" loading="lazy" width="320" height="400" />
+  </a>
+  {% endfor %}
+</div>
+
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Photo viewer">
+  <button class="lightbox-close" type="button" aria-label="Close">×</button>
+  <button class="lightbox-nav lightbox-prev" type="button" aria-label="Previous">‹</button>
+  <img class="lightbox-img" id="lightbox-img" alt="" />
+  <button class="lightbox-nav lightbox-next" type="button" aria-label="Next">›</button>
+  <div class="lightbox-count" id="lightbox-count"></div>
+</div>
+
+<script>
+  (function () {
+    var items = Array.prototype.slice.call(document.querySelectorAll('.gallery-item'))
+    var photos = items.map(function (a) { return a.getAttribute('href') })
+    var lightbox = document.getElementById('lightbox')
+    var lightboxImg = document.getElementById('lightbox-img')
+    var count = document.getElementById('lightbox-count')
+    var current = 0
+
+    function show(i) {
+      current = (i + photos.length) % photos.length
+      lightboxImg.src = photos[current]
+      count.textContent = (current + 1) + ' / ' + photos.length
+    }
+
+    function open(i) {
+      show(i)
+      lightbox.classList.add('is-open')
+      lightbox.setAttribute('aria-hidden', 'false')
+      document.body.style.overflow = 'hidden'
+    }
+
+    function close() {
+      lightbox.classList.remove('is-open')
+      lightbox.setAttribute('aria-hidden', 'true')
+      lightboxImg.src = ''
+      document.body.style.overflow = ''
+    }
+
+    items.forEach(function (a, i) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault()
+        open(i)
+      })
+    })
+
+    lightbox.querySelector('.lightbox-close').addEventListener('click', close)
+    lightbox.querySelector('.lightbox-next').addEventListener('click', function () { show(current + 1) })
+    lightbox.querySelector('.lightbox-prev').addEventListener('click', function () { show(current - 1) })
+    lightbox.addEventListener('click', function (e) {
+      if (e.target === lightbox) close()
+    })
+
+    document.addEventListener('keydown', function (e) {
+      if (!lightbox.classList.contains('is-open')) return
+      if (e.key === 'Escape') close()
+      else if (e.key === 'ArrowRight') show(current + 1)
+      else if (e.key === 'ArrowLeft') show(current - 1)
+    })
+  })()
+</script>
+{% endblock %}
