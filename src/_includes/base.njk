@@ -9,6 +9,15 @@
     {% block main %}
   {% endblock %}
       <script>
+        // Reveal any scheduled post whose publish date has now arrived.
+        // Future posts are rendered with `hidden` at build time; this lets
+        // them appear on their date without needing a site rebuild.
+        document.querySelectorAll("li[data-publish]").forEach(function (el) {
+          if (new Date(el.getAttribute("data-publish")) <= new Date()) {
+            el.hidden = false;
+          }
+        });
+
         const toggleButton = document.getElementById("toggleDarkMode");
         if (toggleButton) {
           toggleButton.addEventListener("click", function() {

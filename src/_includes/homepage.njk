@@ -20,7 +20,7 @@
 <h2>Writing</h2>
 <ul>
   {% for post in collections.post | reverse %}
-  <li>
+  <li data-publish="{{ post.date.toISOString() }}"{% if post.date | isFuture %} hidden{% endif %}>
     <a class="post-link" href="{{ post.url }}">{{ post.data.title }}</a>
     {% if post.date | isNew %}<span class="new-badge">New</span>{% endif %}
     <span class="post-date">{{ post.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short' }) }}</span>

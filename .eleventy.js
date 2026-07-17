@@ -64,6 +64,16 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/css/')
   eleventyConfig.addPassthroughCopy('./src/assets')
 
+  // Posts whose frontmatter `date` is today or earlier (at build time).
+  // Future-dated posts are still generated as pages (they keep the `post`
+  // tag) so their URL works, but they are hidden from listings and the feed.
+  eleventyConfig.addCollection('publishedPosts', function (collectionApi) {
+    const now = Date.now()
+    return collectionApi
+      .getFilteredByTag('post')
+      .filter((item) => item.date.getTime() <= now)
+  })
+
   eleventyConfig.addCollection('notes', function (collectionApi) {
     const notesCollection = collectionApi.getFilteredByGlob('src/notes/*.md')
     console.log(`Found ${notesCollection.length} notes via glob pattern`)
@@ -79,6 +89,13 @@ module.exports = async function (eleventyConfig) {
 
   eleventyConfig.addFilter('visible', (collection) => {
     return collection.filter((item) => item.visible === true)
+  })
+
+  // True when a post's date is still in the future at build time. Used to
+  // hide future posts from listings by default; client-side JS reveals them
+  // once their publish date arrives, without needing a rebuild.
+  eleventyConfig.addFilter('isFuture', (date) => {
+    return new Date(date).getTime() > Date.now()
   })
 
   eleventyConfig.addFilter('isNew', (date) => {

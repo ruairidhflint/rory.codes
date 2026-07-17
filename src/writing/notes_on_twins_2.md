@@ -12,7 +12,7 @@ Twelve weeks. An arbitrary number for non-parents but for those with young child
 
 ![Arthur and Evelyn Flint](/assets/images/twins2.webp 'Arthur and Evelyn Flint')
 
-It has only been 34 days since my [previous](/notes-on-twins-2) piece but a lot has changed. Still three under three. Still intense. Still two babies competing for attention with a toddler. Still wonderful. And...
+It has only been 34 days since my [previous](/notes-on-twins-1) piece but a lot has changed. Still three under three. Still intense. Still two babies competing for attention with a toddler. Still wonderful. And...
 
 **Still a celebrity** Going shopping. Going for a walk. At a café. At a playgroup. You cannot avoid being the centre of attention. People cannot help be drawn to twins. It doesn't get old. You never tire of swapping stories.
 Parents of singletons genuinely can't understand how you could possibly deal with two. Parents of twins can't understand how you could deal with twins AND a toddler. We look at parents of even larger families in the same way I imagine a Private ranked infantryman looks at the Special Forces. 
