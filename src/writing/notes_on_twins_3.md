@@ -3,7 +3,7 @@ layout: 'writing.njk'
 title: Notes on Twins Vol. 3 - Six Months
 permalink: /notes-on-twins-3/
 description: Observations on twins after the first six months.
-date: '2026-07-22'
+date: '2026-07-21'
 ---
 
 > Quick housekeeping before we dive in. I've started a Substack dedicated to fatherhood writing. This piece is cross-posted there. If that's your kind of thing, [check it out](https://roryflint.substack.com/p/notes-on-twins-vol-3).
