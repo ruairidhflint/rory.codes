@@ -8,7 +8,7 @@ date: '2026-07-21'
 
 > Quick housekeeping before we dive in. I've started a Substack dedicated to fatherhood writing. This piece is cross-posted there. If that's your kind of thing, [check it out](https://roryflint.substack.com/p/notes-on-twins-vol-3).
 
-Six months is an interesting moment. It is the penultimate milestone that feels truly meaningful to talk about: after a year, they are toddlers, small children that develops and grows in a completely different way. More than half of their lives so far have passed since my [last post](/notes-on-twins-2/); sometimes it has felt like a Sisyphean struggle where the calendar never moves forward, and yet today it feels like my last post was just yesterday. 
+Six months is an interesting moment. It is the penultimate milestone that feels truly meaningful to talk about: after a year, they are toddlers, small children that develop and grow in a completely different way. More than half of their lives so far have passed since my [last post](/notes-on-twins-2/); sometimes it has felt like a Sisyphean struggle where the calendar never moves forward, and yet today it feels like my last post was just yesterday. 
 
 In the chaos of these early days, watching the twins develop at a terrifyingly fast pace, I almost missed how Elijah, my eldest, has changed. His birthday is fast approaching and soon having three under three will be a title we can no longer proudly claim. His language has expanded, matured and deepened; his curiosity about the world around him grows daily and his independence is enough now for me to desperately wish for him to slow down. 
 
