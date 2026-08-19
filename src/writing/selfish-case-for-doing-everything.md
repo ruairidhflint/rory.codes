@@ -22,7 +22,7 @@ Facing this exact problem day after day, I stumbled[^1] across a simple but incr
 You must shoulder the responsibility, the ownership, and the burdens associated for everything regardless of what your rational brain says. The bins need taking out? Your responsibility. The sick on the floor that your partner didn’t clean up after burping the baby that is now soaking through your socks? Your responsibility. There is a brief respite allowing one parent to grab a nap? You hold down the fort and let your partner rest. Your responsibility.
 
 > There is only one way to salvation, and that is to make yourself responsible for all men’s sins. As soon as you make yourself responsible in all sincerity for everything and for everyone, you will see at once that this is really so, and that you are to blame for every one and for all things.
-— Fyodor Dostoevsky, The Brothers Karamazov
+> — Fyodor Dostoevsky, The Brothers Karamazov
 
 Taking on everything and anything is not a punishment, it is ultimate liberation. By adopting universal responsibility, you are not beholden to mood or an illusion of fairness. There is a cognitive overhead of trying to decide or understand who should do what. If you lift the responsibility onto your own shoulders, those questions never need to be asked.
 
@@ -43,7 +43,7 @@ The second half is equally important: “you will expect nothing in return”. A
 The problem with expecting a ‘thank you’ is that you are setting a target that your sleep-deprived partner likely isn’t even aware of, and then you’re getting upset when they inevitably miss it. You are setting them up for failure and yourself for resentment. In the trenches of newborn life, neither of you has the spare energy for constant outward validation. It’s not that your partner isn’t deeply grateful; it’s that demanding the expression of that gratitude is a luxury you simply don’t have time for right now. My suggestion is simply take down the target. Accept that your family s thankful and grateful for you and what you do, the words don’t need to be made explicit.
 
 > The struggle itself toward the heights is enough to fill a man’s heart. One must imagine Sisyphus happy.
-— Albert Camus
+> — Albert Camus
 
 Another important note: avoid martyrdom and point scoring. Taking on all this responsibility, expecting nothing in return, and then making a point of how much you are doing immediately undoes the work. Making others aware of how hard you are working only cultivates more resentment. It creates a “me versus you” dynamic that leads nowhere good.
 

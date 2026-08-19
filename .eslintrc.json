@@ -8,5 +8,13 @@
   "parserOptions": {
     "ecmaVersion": "latest"
   },
+  "overrides": [
+    {
+      "files": ["src/_data/**/*.js"],
+      "env": {
+        "node": true
+      }
+    }
+  ],
   "rules": {}
 }
