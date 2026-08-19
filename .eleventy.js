@@ -64,6 +64,20 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/css/')
   eleventyConfig.addPassthroughCopy('./src/assets')
 
+  // Prevent pages opened in a new tab from controlling the originating page.
+  // This also covers links authored as raw HTML in Markdown files.
+  eleventyConfig.addTransform('secure-blank-targets', function (content) {
+    if (!this.page.outputPath?.endsWith('.html')) return content
+
+    return content.replace(
+      /<a\b([^>]*\btarget=["']_blank["'][^>]*)>/gi,
+      (link, attributes) => {
+        if (/\brel\s*=/i.test(attributes)) return link
+        return `<a${attributes} rel="noopener noreferrer">`
+      }
+    )
+  })
+
   // Posts whose frontmatter `date` is today or earlier (at build time).
   // Future-dated posts are still generated as pages (they keep the `post`
   // tag) so their URL works, but they are hidden from listings and the feed.
