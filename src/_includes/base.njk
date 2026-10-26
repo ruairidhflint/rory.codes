@@ -20,14 +20,12 @@
 
         const toggleButton = document.getElementById("toggleDarkMode");
         if (toggleButton) {
+          toggleButton.setAttribute("aria-pressed", String(isDarkMode()));
           toggleButton.addEventListener("click", function() {
-            if (isDarkMode()) {
-              localStorage.theme = 'light'
-              document.documentElement.classList.remove('dark')
-            } else {
-              localStorage.theme = 'dark'
-              document.documentElement.classList.add('dark')
-            }
+            const darkMode = !isDarkMode();
+            localStorage.theme = darkMode ? 'dark' : 'light';
+            document.documentElement.classList.toggle('dark', darkMode);
+            toggleButton.setAttribute("aria-pressed", String(darkMode));
           });
         }
     </script>

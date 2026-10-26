@@ -18,8 +18,37 @@
 }
 
 #toggleDarkMode {
+  display: inline-block;
+  width: 0.6em;
+  height: 0.6em;
+  min-width: 24px;
+  min-height: 24px;
+  margin: 0.2em 0 0 0.06em;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  vertical-align: top;
   cursor: pointer;
   transition: opacity 0.2s ease-in-out;
+}
+
+#toggleDarkMode img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  transform: scale(0.9);
+}
+
+#toggleDarkMode:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 4px;
+}
+
+.dark #toggleDarkMode img {
+  filter: invert(1);
 }
 
 @media (hover: hover) {

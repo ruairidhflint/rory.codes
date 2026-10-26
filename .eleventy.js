@@ -49,6 +49,13 @@ module.exports = async function (eleventyConfig) {
   const EleventyPluginOgImage = (await import('eleventy-plugin-og-image'))
     .default
   eleventyConfig.addPlugin(EleventyPluginOgImage, {
+    shortcodeOutput: async (ogImage) => {
+      const imageUrl = new URL(await ogImage.outputUrl(), ogImage.data.siteUrl)
+        .href
+
+      return `<meta property="og:image" content="${imageUrl}" />
+<meta name="twitter:image" content="${imageUrl}" />`
+    },
     satoriOptions: {
       fonts: [
         {
@@ -62,6 +69,7 @@ module.exports = async function (eleventyConfig) {
   })
 
   eleventyConfig.addWatchTarget('./src/css/')
+  eleventyConfig.addWatchTarget('./src/assets/asterisk-256.png')
   eleventyConfig.addPassthroughCopy('./src/assets')
 
   // Prevent pages opened in a new tab from controlling the originating page.

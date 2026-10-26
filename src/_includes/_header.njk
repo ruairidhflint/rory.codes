@@ -12,7 +12,7 @@
 <meta property="og:title" content="{{ title or metadata.title }}" />
 <meta property="og:description" content="{{ description or metadata.description }}" />
 <meta property="og:url" content="{{ metadata.url }}{{ page.url | url }}" /> {# page.url is already the full path from site root, |url filter is good practice #}
-{% ogImage "_includes/og/og-image.njk", { title: title or metadata.title } %}
+{% ogImage "_includes/og/og-image.njk", { title: title or metadata.title, branding: branding, siteUrl: metadata.url } %}
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
@@ -20,7 +20,6 @@
 <meta name="twitter:creator" content="@mrroryflint" /> {# Or {{ metadata.twitter_handle }} #}
 <meta name="twitter:title" content="{{ title or metadata.title }}" />
 <meta name="twitter:description" content="{{ description or metadata.description }}" />
-<meta name="twitter:image" content="{{ metadata.url }}{{ ogImage._ogImagePath }}" />
 <meta name="twitter:image:alt" content="{{ title or metadata.title }}" />
 
 {% if page.url %}
@@ -29,10 +28,10 @@
 
 <link rel="alternate" href="{{ '/feed.xml' | url }}" type="application/atom+xml" title="Rory Flint's Blog">
 
-<link rel="icon" href="{{ '/assets/32.png' | url }}" sizes="32x32">
-<link rel="icon" href="{{ '/assets/192.png' | url }}" sizes="192x192">
-<link rel="apple-touch-icon" href="{{ '/assets/192.png' | url }}">
-<link rel="icon" href="{{ '/assets/favicon.ico' | url }}" type="image/x-icon" />
+<link rel="icon" href="{{ '/assets/32.png?v=handdrawn' | url }}" sizes="32x32">
+<link rel="icon" href="{{ '/assets/192.png?v=handdrawn' | url }}" sizes="192x192">
+<link rel="apple-touch-icon" href="{{ '/assets/192.png?v=handdrawn' | url }}">
+<link rel="icon" href="{{ '/assets/favicon.ico?v=handdrawn' | url }}" type="image/x-icon" />
 
 <script type="application/ld+json">
 {

@@ -38,13 +38,11 @@
         box-sizing: border-box; /* Added for robust padding behavior */
       }
       .symbol {
-        position: absolute; /* Added: to position in top-left */
-        top: 50px;          /* Added: distance from top */
-        left: 50px;         /* Added: distance from left */
-        font-size: 200px;    /* Changed: from 48px to make it larger (asterisk char width ~30-35px) */
-        color: black;       /* Existing */
-        line-height: 1;     /* Added: to better control element height */
-        /* margin-bottom: 20px; Removed: not needed for absolute positioning */
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: 120px;
+        height: 120px;
       }
       .title {
         font-family: 'Helvetica', Arial, sans-serif; /* Changed: for a slightly nicer look */
@@ -62,9 +60,7 @@
 </head>
 <body>
   <div class="container">
-    <div class="symbol">
-      *
-    </div>
+    <img class="symbol" src="{{ branding.asteriskDataUri }}" width="120" height="120" alt="" />
     <div class="title">
       {{ title | safe }}
     </div>
