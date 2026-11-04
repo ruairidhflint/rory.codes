@@ -18,8 +18,11 @@ You can also read my [CV](/cv/).
 
 ## Contact
 
-- <a href="mailto:roryflintphoto@gmail.com" target="_blank">Email me</a> at roryflintphoto at gmail dot com
-- <a href="https://twitter.com/MrRoryFlint/" target="_blank">Twitter</a>
-- <a href="https://instagram.com/MrRoryFlint/" target="_blank">Instagram</a>
+I am currently on hiatus from all forms of social media, current affairs and all other forms of digital passivce consumption. Email is your best bet; I reply to everybody.
+
+- <a href="mailto:hello@rory.codes" target="_blank">Email me</a> at hello at rory dot codes
 - <a href="https://github.com/ruairidhflint" target="_blank">Github</a>
-- <a href="https://www.linkedin.com/in/rory-patrick-flint/" target="_blank">LinkedIn</a>
+
+- <s><a href="https://twitter.com/MrRoryFlint/" target="_blank">Twitter</a></s>
+- <s><a href="https://instagram.com/MrRoryFlint/" target="_blank">Instagram</a></s>
+- <s><a href="https://www.linkedin.com/in/rory-patrick-flint/" target="_blank">LinkedIn</a></s>
